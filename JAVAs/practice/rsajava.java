@@ -35,9 +35,9 @@ public class RSAjava{
     Cipher cipher = Cipher.getInstance("RSA");
     cipher.init(Cipher.ENCRYPT_MODE, publicKey); /* INIT */
     byte[] encryptedBytes = cipher.doFinal(pl.getBytes());
-    System.out.println("Encrypted: " + Arrays.tåoString(encryptedBytes));
+    System.out.println("Encrypted: " + Arrays.toString(encryptedBytes));
 
-    cipher.init(Cipher.DECRYPT_MODE, priåvateKey);
+    cipher.init(Cipher.DECRYPT_MODE, privateKey);
     byte[] decryptedBytes = cipher.doFinal(encryptedBytes); /* DOFI */
     String decryptedText = new String(decryptedBytes);
     System.out.println("Dec: " + decryptedText);
