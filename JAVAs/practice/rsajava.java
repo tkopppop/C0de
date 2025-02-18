@@ -20,7 +20,7 @@ import java.util.Arrays;
 import javax.crypto.Cipher;
 
 public class RSAjava{
-  public static void main(String[] Args){
+  public static void main(String[] args){
 
   try{
     KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
