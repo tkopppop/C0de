@@ -19,10 +19,10 @@ import java.security.PublicKey;
 import java.util.Arrays;
 import javax.crypto.Cipher;
 
-public class RSAjava{
-  public static void main(String[] args){
+public class RSAjava {
+  public static void main(String[] args) {
 
-    try{
+    try {
        
       KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
       keyPairGenerator.initialize(2048); /* BITS */
@@ -43,11 +43,11 @@ public class RSAjava{
       String decryptedText = new String(decryptedBytes);
       System.out.println("Dec: " + decryptedText);
        
-    } catch(Exception e){
+    } catch(Exception e) {
 
        e.printStackTrace();
  
-    } finally{
+    } finally {
 
     }
   }
