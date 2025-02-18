@@ -22,30 +22,34 @@ import javax.crypto.Cipher;
 public class RSAjava{
   public static void main(String[] args){
 
-  try{
-    KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
-    keyPairGenerator.initialize(2048); /* BITS */
-    KeyPair keyPair = keyPairGenerator.generateKeyPair();
+    try{
+       
+      KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
+      keyPairGenerator.initialize(2048); /* BITS */
+      KeyPair keyPair = keyPairGenerator.generateKeyPair();
 
-    PublicKey publicKey = keyPair.getPublic();
-    PrivateKey privateKey = keyPair.getPrivate();
-    String pl = "Hello rsa encryption text is it";
-    System.out.println("Original texts: " + pl);
+      PublicKey publicKey = keyPair.getPublic();
+      PrivateKey privateKey = keyPair.getPrivate();
+      String pl = "Hello rsa encryption text is it";
+      System.out.println("Original texts: " + pl);
 
-    Cipher cipher = Cipher.getInstance("RSA");
-    cipher.init(Cipher.ENCRYPT_MODE, publicKey); /* INIT */
-    byte[] encryptedBytes = cipher.doFinal(pl.getBytes());
-    System.out.println("Encrypted: " + Arrays.toString(encryptedBytes));
+      Cipher cipher = Cipher.getInstance("RSA");
+      cipher.init(Cipher.ENCRYPT_MODE, publicKey); /* INIT */
+      byte[] encryptedBytes = cipher.doFinal(pl.getBytes());
+      System.out.println("Encrypted: " + Arrays.toString(encryptedBytes));
 
-    cipher.init(Cipher.DECRYPT_MODE, privateKey);
-    byte[] decryptedBytes = cipher.doFinal(encryptedBytes); /* DOFI */
-    String decryptedText = new String(decryptedBytes);
-    System.out.println("Dec: " + decryptedText);
-  } catch(Exception e){
+      cipher.init(Cipher.DECRYPT_MODE, privateKey);
+      byte[] decryptedBytes = cipher.doFinal(encryptedBytes); /* DOFI */
+      String decryptedText = new String(decryptedBytes);
+      System.out.println("Dec: " + decryptedText);
+       
+    } catch(Exception e){
 
-  } finally{
+       e.printStackTrace();
+ 
+    } finally{
 
+    }
   }
-  } // end of Th main
 
 }
