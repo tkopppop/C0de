@@ -32,7 +32,7 @@
 #define DRIVER_SET_NSG			3
 #define DRIVER_GET_FUNC			4
 #define DRIVER_GET_OPT			5
-#define DRIVER_GET_LOG_HIT	    6
+#define DRIVER_GET_LOG_HIT	        6
 
 // Driver Control Args(arg)
 #define	SYMLINK_DISABLE 	 210
@@ -131,16 +131,16 @@ char MAGIC[4];
 
 struct log_format *clog;
 
-static unsigned long ioctl_func[MAXFUNC]={1,1,1,1,1};   // Default is All true. 
-static unsigned long ioctl_option[MAXOPT]={0,3333}; // [0]: MODULE COUNT [1] : NSG
+static unsigned long ioctl_func[MAXFUNC]={1,1,1,1,1}; /* Default is All true. */ 
+static unsigned long ioctl_option[MAXOPT]={0,3333};   /* [0]: MODULE COUNT [1] : NSG */
 static unsigned long log_hit[2]={0,0};
 
 
 ssize_t wrap_symlink(const char * oldname, const char * newname){
 		if(down_trylock(&my_sem)) down_interruptible(&my_sem);
 		 set_clog(MOD_SYMLINK, current->uid, current->gid, current->euid, current->egid, current->pid, NO_ACT);
-         up(&my_sem);
- 		 log_hit[0] = 1;
+                 up(&my_sem);
+ 	        log_hit[0] = 1;
 
         __delay(1000000000);
         return orig_symlink(oldname, newname);
@@ -151,7 +151,7 @@ int wrap_ptrace(long request, long pid, long addr, long data){
                 if(request == PTRACE_TRACEME){
 					 	 if(down_trylock(&my_sem)) down_interruptible(&my_sem);
 						 set_clog(MOD_PTRACE, current->uid, current->gid, current->euid, current->egid, current->pid, NO_ACT);
-				         up(&my_sem);
+		  		                 up(&my_sem);
 						 log_hit[0] = 1;
 
 				}
@@ -240,7 +240,7 @@ static unsigned char nargs[18]={AL(0),AL(3),AL(3),AL(3),AL(2),AL(3),
 #undef AL
 
 
-// NSG(Non-Server-Group) is Don't Permit listen(socket) Function
+/* NSG(Non-Server-Group) is Don't Permit listen(socket) Function */
 
 long wrap_socketcall(int call, unsigned long *args){
 	
@@ -317,10 +317,10 @@ lock_kernel();
 			case    DRIVER_DEC_COUNT : MOD_DEC_USE_COUNT;  
 									   ioctl_option[0]--;
 									   break;
-            case    DRIVER_INC_COUNT : MOD_INC_USE_COUNT;  
+                        case    DRIVER_INC_COUNT : MOD_INC_USE_COUNT;  
                                        ioctl_option[0]++;
                                        break;
-            case    DRIVER_FUNC_CONT : 
+                        case    DRIVER_FUNC_CONT : 
 					switch ((int)arg){ // ON/OFF Module 
 						    case SYMLINK_DISABLE : 
 								sys_call_table[SYS_symlink] = orig_symlink;
