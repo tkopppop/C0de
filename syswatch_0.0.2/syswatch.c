@@ -25,7 +25,7 @@
 
 /* IOCTL Command */
 
-// Driver Command(cmd)
+/* Driver Command(cmd) */
 #define DRIVER_DEC_COUNT		0
 #define DRIVER_INC_COUNT		1
 #define DRIVER_FUNC_CONT		2
@@ -34,7 +34,7 @@
 #define DRIVER_GET_OPT			5
 #define DRIVER_GET_LOG_HIT	        6
 
-// Driver Control Args(arg)
+/* Driver Control Args(arg) */
 #define	SYMLINK_DISABLE 	 210
 #define	SYMLINK_ENABLE		 211
 #define	PTRACE_DISABLE		 220
@@ -51,7 +51,7 @@
 #define	SEGV		11
 #define	DENY_LISTEN	13
 
-// Module_pointer 
+/* Module_pointer */ 
 #define	MOD_SYMLINK	0
 #define	MOD_PTRACE	1
 #define	MOD_EXECVE	2
