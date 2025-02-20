@@ -9,7 +9,7 @@
    - DOFI(doFinal)
    
 
-   *sigh* It's a my basic code to java programming language. java is good? i don't think so.
+   *sigh* It's a my basic code to java programming language. is java good? i don't think so.
    
 */
 
