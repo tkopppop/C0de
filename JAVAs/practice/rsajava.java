@@ -9,7 +9,8 @@
    - DOFI(doFinal)
    
 
-   x90c hacker nope!
+   *sigh* It's a my basic code to java programming language. java is good? i don't think so.
+   
 */
 
 import java.security.KeyPair;
