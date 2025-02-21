@@ -22,7 +22,7 @@ void handle_client(int client_sock) {
                          "Content-Length: 56\r\n"
                          "Connection: close\r\n"
                          "\r\n"
-                         "<html><body><h1>Hello from Select Server!</h1></body></html>";
+                         "<html><body><b>Hello Web Server world!!! select example1.</b></body></html>";
 
   char buffer[BUFFER_SIZE];
 
