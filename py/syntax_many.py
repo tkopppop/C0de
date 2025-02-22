@@ -12,7 +12,7 @@ is_valid = True  # boolean
 
 def print_types():
   print(type(x), type(pi), type(name), type(is_valid))
-  print_types()
+print_types()
 
 # 2- if~elif~else
 if x > 5:
