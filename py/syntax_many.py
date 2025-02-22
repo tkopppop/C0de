@@ -5,8 +5,8 @@ Python Syntax Study Example
 """
 
 # 1- var and data type
-x = 10       # int
-pi = 3.14    # float
+x = 10           # int
+pi = 3.14        # float
 name = "Python"  # string
 is_valid = True  # boolean
 
