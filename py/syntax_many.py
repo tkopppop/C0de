@@ -7,8 +7,8 @@ Python Syntax Study Example
 # 1- var and data type
 x = 10           # int
 pi = 3.14        # float
-name = "Python"  # string
-is_valid = True  # boolean
+name = "Python"  # str
+is_valid = True  # bool
 
 def print_types():
   print(type(x), type(pi), type(name), type(is_valid))
