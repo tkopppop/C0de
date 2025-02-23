@@ -88,7 +88,7 @@ def decorator(func):
     print("pre function to call")
     func()
     print("after function to called")
-    return wrapper
+  return wrapper
 
 @decorator
 def say_hello():
