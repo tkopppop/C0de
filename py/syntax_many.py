@@ -1,7 +1,7 @@
 
 
 """
-Python Syntax Study Example
+Python Exam1
 """
 
 # 1- var and data type
