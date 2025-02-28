@@ -1,10 +1,3 @@
-/*
-
-  webserver_selectexample.c
-  - x90c (tf8)
-  - x90cx90c1@gmail.com
-
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -22,7 +15,6 @@
 #define MAX_CLIENTS     10
 
 
-/* processing client request */
 void handle_client(int client_sock) {
     
   const char* response = "HTTP/1.1 200 OK\r\n"
@@ -51,7 +43,6 @@ void handle_client(int client_sock) {
 
 }
 
-/* entry point */
 int main(int argc, char** argv) {
   s32 server_sock;
   s32 client_sock;
@@ -94,18 +85,15 @@ int main(int argc, char** argv) {
 
   printf("listen server port:%d\n", PORT);
 
-  /* inf */
   while (1) {
 
     read_fds = master_fds;
 
-    /* select */
     if (select(max_fd + 1, &read_fds, NULL, NULL, NULL) == -1) {
       perror("select");
       exit(EXIT_FAILURE);
     }
 
-    /* mon fds */
     for (fd = 0; fd <= max_fd; fd++) {
 
       if (FD_ISSET(fd, &read_fds)) {
@@ -133,8 +121,4 @@ int main(int argc, char** argv) {
   close(server_sock);
   return 0;
 }
-
-/* EoC */
-
-
 
