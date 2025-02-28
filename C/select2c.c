@@ -1,5 +1,5 @@
 /*
-  select2.c (nested 2 stylying easy easy easy *** hahahaha but you? handsome!? beautiful mind??? pretty too much??? **
+  select2c.c
 */
 
 #include <stdio.h>
