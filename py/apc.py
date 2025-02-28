@@ -1,6 +1,6 @@
 """
 Advanced Python Concepts
-Author: from openAI import chatGPT codes
+Author: x90c
 """
 
 # x: int = 10 data type setup possible to declear a var. int float str bool 
