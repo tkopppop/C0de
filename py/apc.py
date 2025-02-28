@@ -116,9 +116,10 @@ class Person:
   def introduce(self) -> str:
     return f"Hello, I'm {self._name}, {self._age} years old."
 
-
-
+p = Person("KJ", 1);
 print(p.introduce(), p.species())
+
+
 
 # 8- Exception Handling with Multiple Exceptions
 try:
