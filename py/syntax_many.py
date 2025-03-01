@@ -78,7 +78,7 @@ with open("sample.txt", "r") as file:
 squared_numbers = [x**2 for x in range(5)]
 print(squared_numbers)
 
-# 11- lambda funcs
+# 11- lambda funcs (람다 아니고 레임다입니다. 그리고 **는 씨언어에서 ^ <- 제곱 구하는 거랑 같은데 **로 쓰는거?)
 square = lambda x: x ** 2
 print(square(4))
 
