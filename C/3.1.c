@@ -16,6 +16,6 @@ int main(void)
   s32 (*fnp1)();
   fnp1 = func1;
 
-  func1();
+  fnp1();
 
 }
