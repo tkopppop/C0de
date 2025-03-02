@@ -13,4 +13,6 @@ int main(void)
 
   func1();
 
+  return 0;
+  
 }
