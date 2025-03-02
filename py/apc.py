@@ -97,6 +97,11 @@ def add(a: int, b: int = 10, *args: int, **kwargs: Any) -> int:
 
 print(add(5, 5, 2, 3, x=100))
 
+def add2(a: int, b: int = 10, *args: int, **kwargs: Any) -> int:
+  return a + b + sum(arg)
+
+print (add(5, 5, 2, 3, 4, x=100))
+
 
 
 # 7- Class with Static Method and Property Decorator
