@@ -14,10 +14,5 @@ int main(void)
   }
 
   func1();
-  
-  s32 (*fnp1)();
-  fnp1 = func1;
-
-  fnp1();
 
 }
