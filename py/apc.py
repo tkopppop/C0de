@@ -97,10 +97,11 @@ def add(a: int, b: int = 10, *args: int, **kwargs: Any) -> int:
 
 print(add(5, 5, 2, 3, x=100))
 
+# # haha i need to solve many methods but not that hard to understand the python expression good!
 def add2(a: int, b: int = 10, *args: int, **kwargs: Any) -> int:
-  return a + b + sum(arg)
+  return a + b + sum(arg) + sum(kwargs.values())
 
-print (add(5, 5, 2, 3, 4, x=100))
+print (add(5, 5, 2, 3, 4, x=100, i=100, z=300))
 
 
 
