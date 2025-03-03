@@ -1,6 +1,9 @@
 """
-Advanced Python Concepts
-Author: x90c
+
+apc.py (Advanced Python Concepts)
+
+Author: from openAI import chatGPT codes
+
 """
 
 # x: int = 10 data type setup possible to declear a var. int float str bool 
@@ -97,11 +100,10 @@ def add(a: int, b: int = 10, *args: int, **kwargs: Any) -> int:
 
 print(add(5, 5, 2, 3, x=100))
 
-# # haha i need to solve many methods but not that hard to understand the python expression good!
-def add2(a: int, b: int = 10, *args: int, **kwargs: Any) -> int:
-  return a + b + sum(arg) + sum(kwargs.values())
+def add_2(a: int, b: int = 10, *args: int, **kwargs: Any) -> int:
+    return a + b + sum(args) + sum(kwargs.values())
 
-print (add(5, 5, 2, 3, 4, x=100, i=100, z=300))
+print(add_2(5, 5, 2, 3, x=100, i=300, z=-30))  # 출력: 115 (5 + 5 + 2 + 3 + 100)
 
 
 
@@ -122,10 +124,27 @@ class Person:
   def introduce(self) -> str:
     return f"Hello, I'm {self._name}, {self._age} years old."
 
-p = Person("KJ", 1);
+p = Person("KJ", 1)
 print(p.introduce(), p.species())
 
+class Person2:
+  def __init__(self, name2: str, age2: int):
+    self._name = name2
+    self._age = age2
 
+  @property
+  def age(self) -> int:
+    return self._age
+
+  @staticmethod
+  def species() -> str:
+    return "Hum"
+
+  def introdu(self) -> str:
+    return f"Hello~ {self._name}: {self._age} yesrs old..."
+
+p = Person2("KJKJKJKJKJKJKJ", 2)
+print(p.introdu, p.species())
 
 # 8- Exception Handling with Multiple Exceptions
 try:
