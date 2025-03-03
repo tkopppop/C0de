@@ -13,6 +13,6 @@ int main(void)
 
   func1();
 
-  return 0; // hahahahaha
+  return 0;
   
 }
