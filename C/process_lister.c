@@ -17,12 +17,12 @@
 
 struct ProcInfo {
   int pid;
+  int active;
   char name[64];
   char state;
   long memory;
   double cpu_usage;
   time_t start_time;
-  int active;
 };
 
 
@@ -98,6 +98,7 @@ void load_procs()
 {
 
   DIR* dir;
+  struct ProcInfo* proc;
   struct dirent* entry;
   char path[PATH_SIZE];
   FILE* fp;
@@ -122,7 +123,7 @@ void load_procs()
       fp = fopen(path, "r");
       if(!fp) continue;
 
-      struct ProcInfo* proc = &pi[cntproc];
+      proc = &pi[cntproc];
       proc->pid = pid;
         
       fscanf(fp, "%*d %63s %c", proc->name, &proc->state);
@@ -158,9 +159,9 @@ void load_procs()
 
 void print_procs()
 {
-  int i;
   time_t uptime;
-
+  int i;
+  
   printf("\npid\tname\t\tstate\tmemory(kb)\tcpu%%\tuptime\n");
   printf("+-----------------------------------------------+\n");
     
@@ -205,11 +206,11 @@ void kill_proc(int pid)
 
 int main(int argc, char** argv)
 {
-  int pid;
+  char command[32];
   long total_ram;
   long used_ram;
+  int pid;
   int cpu_cores;
-  char command[32];
 
   while (1) {
 
