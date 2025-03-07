@@ -72,7 +72,7 @@ double calc_cpu_usage(int pid)
 
 }
 
-void get_system_info(long *total_ram, long *used_ram, int *cpu_cores)
+void get_system_info(long* total_ram, long* used_ram, int* cpu_cores)
 {
 
   struct sysinfo si;
