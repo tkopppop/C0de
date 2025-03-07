@@ -11,7 +11,7 @@
 
 #define STAT_PATH        "/proc/%d/stat"
 #define STATUS_PATH      "/proc/%d/status"
-#define MAX_PROCESSES    512
+#define MAX_PROCS        512
 #define PATH_SIZE        256
 
 
@@ -26,7 +26,7 @@ struct ProcInfo {
 };
 
 
-struct ProcInfo pi[MAX_PROCESSES];
+struct ProcInfo pi[MAX_PROCS];
 int cntproc = 0;
 
 
@@ -112,7 +112,7 @@ void load_procs()
     return;
   }
 
-  while ((entry = readdir(dir)) != NULL && cntproc < MAX_PROCESSES) {
+  while ((entry = readdir(dir)) != NULL && cntproc < MAX_PROCS) {
 
     if (entry->d_type != DT_DIR || !atoi(entry->d_name))
       continue;
