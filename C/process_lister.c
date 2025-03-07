@@ -9,10 +9,11 @@
 #include <sys/time.h>
 #include <sys/sysinfo.h>
 
-#define MAX_PROCESSES    512
-#define PATH_SIZE        256
 #define STAT_PATH        "/proc/%d/stat"
 #define STATUS_PATH      "/proc/%d/status"
+#define MAX_PROCESSES    512
+#define PATH_SIZE        256
+
 
 struct ProcInfo {
   int pid;
@@ -24,8 +25,10 @@ struct ProcInfo {
   int active;
 };
 
+
 struct ProcInfo pi[MAX_PROCESSES];
 int cntproc = 0;
+
 
 /*
   clear_screen(): ansi clear screen in this term.
@@ -161,7 +164,7 @@ void print_procs()
   printf("\npid\tname\t\tstate\tmemory(kb)\tcpu%%\tuptime\n");
   printf("+-----------------------------------------------+\n");
     
-  for (i = 0; i < proc_count; i++) {
+  for (i = 0; i < cntproc; i++) {
 
     if (!pi[i].active) continue;
 
@@ -183,7 +186,7 @@ void kill_proc(int pid)
 
     printf("Process %d terminated successfully\n", pid);
 
-    for (int i = 0; i < proc_count; i++) {
+    for (int i = 0; i < cntproc; i++) {
       if (pi[i].pid == pid) {
         pi[i].active = 0;
         break;
@@ -192,7 +195,7 @@ void kill_proc(int pid)
 
   } else {
 
-    perror("Failed to kill process");
+    perror("_Failed to kill process");
 
   }
 
@@ -229,7 +232,7 @@ int main(int argc, char** argv)
     if (strcmp(command, "scan") == 0) {
 
       load_procs();
-      printf("Scan completed. Use 'list' to view processes.\n");
+      printf("Scan complete. Use 'list' to view processes.\n");
 
     } else if (strcmp(command, "list") == 0) {
 
@@ -242,12 +245,12 @@ int main(int argc, char** argv)
 
     } else if (strcmp(command, "exit") == 0) {
 
-      printf("Exiting...\n");
+      printf("_Exiting...\n");
       break;
 
     } else {
 
-      printf("Invalid command!\n");
+      printf("_invalid command!\n");
 
     }
 
