@@ -25,7 +25,7 @@ struct ProcInfo {
 };
 
 struct ProcInfo pi[MAX_PROCESSES];
-int proc_count = 0;
+int cntproc = 0;
 
 /*
   clear_screen(): ansi clear screen in this term.
@@ -100,7 +100,7 @@ void load_procs()
   FILE* fp;
   int pid;
   
-  proc_count = 0;
+  cntproc = 0;
 
   dir = opendir("/proc");
   if (!dir) {
@@ -108,7 +108,7 @@ void load_procs()
     return;
   }
 
-  while ((entry = readdir(dir)) != NULL && proc_count < MAX_PROCESSES) {
+  while ((entry = readdir(dir)) != NULL && cntproc < MAX_PROCESSES) {
 
     if (entry->d_type != DT_DIR || !atoi(entry->d_name))
       continue;
@@ -119,7 +119,7 @@ void load_procs()
       fp = fopen(path, "r");
       if(!fp) continue;
 
-      struct ProcInfo* proc = &pi[proc_count];
+      struct ProcInfo* proc = &pi[cntproc];
       proc->pid = pid;
         
       fscanf(fp, "%*d %63s %c", proc->name, &proc->state);
@@ -145,7 +145,7 @@ void load_procs()
       proc->cpu_usage = calc_cpu_usage(pid);
       proc->start_time = time(NULL);
       proc->active = 1;
-      proc_count++;
+      cntproc++;
 
   }
 
