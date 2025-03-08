@@ -20,9 +20,9 @@
 struct ProcInfo {
   s32 pid;
   s32 active;
+  s32 memory;
   char name[64];
   char state;
-  long memory;
   double cpu_usage;
   time_t start_time;
 };
@@ -49,15 +49,15 @@ void clear_screen()
 
 }
 
-double calc_cpu_usage(int pid)
+double calc_cpu_usage(s32 pid)
 {
 
   char path[PATH_SIZE];
   FILE* fp;
-  unsigned long utime;
-  unsigned long stime;
-  unsigned long total_time;
-  unsigned long pid_time;
+  u32 utime;
+  u32 stime;
+  u32 total_time;
+  u32 pid_time;
 
   struct sysinfo si;
   sysinfo(&si);
@@ -77,7 +77,7 @@ double calc_cpu_usage(int pid)
 
 }
 
-void get_system_info(long* total_ram, long* used_ram, int* cpu_cores)
+void get_system_info(s32* total_ram, s32* used_ram, s32* cpu_cores)
 {
 
   struct sysinfo si;
@@ -182,7 +182,7 @@ void print_procs()
 
 }
 
-void kill_proc(int pid)
+void kill_proc(s32 pid)
 {
 
   if (kill(pid, SIGTERM) == 0) {
@@ -264,3 +264,4 @@ int main(int argc, char** argv)
   return 1;
 
 }
+
