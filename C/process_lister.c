@@ -9,6 +9,8 @@
 #include <sys/time.h>
 #include <sys/sysinfo.h>
 
+#include "types.h"
+
 #define STAT_PATH        "/proc/%d/stat"
 #define STATUS_PATH      "/proc/%d/status"
 #define MAX_PROCS        512
@@ -16,8 +18,8 @@
 
 
 struct ProcInfo {
-  int pid;
-  int active;
+  s32 pid;
+  s32 active;
   char name[64];
   char state;
   long memory;
@@ -27,7 +29,7 @@ struct ProcInfo {
 
 
 struct ProcInfo pi[MAX_PROCS];
-int cntproc = 0;
+s32 cntproc = 0;
 
 
 /*
@@ -102,7 +104,7 @@ void load_procs()
   struct dirent* entry;
   char path[PATH_SIZE];
   FILE* fp;
-  int pid;
+  s32 pid;
   
   cntproc = 0;
 
@@ -160,7 +162,7 @@ void load_procs()
 void print_procs()
 {
   time_t uptime;
-  int i;
+  s32 i;
   
   printf("\npid\tname\t\tstate\tmemory(kb)\tcpu%%\tuptime\n");
   printf("+-----------------------------------------------+\n");
@@ -209,8 +211,8 @@ int main(int argc, char** argv)
   char command[32];
   long total_ram;
   long used_ram;
-  int pid;
-  int cpu_cores;
+  s32 pid;
+  s32 cpu_cores;
 
   while (1) {
 
