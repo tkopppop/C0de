@@ -206,13 +206,13 @@ void kill_proc(s32 pid)
 
 /* Entry Point of ProcessesMonitor */
 
-int main(int argc, char** argv)
+int main(s32 argc, char** argv)
 {
   char command[32];
-  long total_ram;
-  long used_ram;
   s32 pid;
   s32 cpu_cores;
+  s64 total_ram;
+  s64 used_ram;
 
   while (1) {
 
