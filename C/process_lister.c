@@ -206,7 +206,7 @@ void kill_proc(s32 pid)
 
 /* Entry Point of ProcessesMonitor */
 
-int main(s32 argc, char** argv)
+int main(int argc, char** argv)
 {
   char command[32];
   s32 pid;
