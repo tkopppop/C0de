@@ -49,7 +49,7 @@ void clear_screen()
 
 }
 
-double calc_cpu_usage(s32 pid)
+double calc_cpu_usage(int pid)
 {
 
   char path[PATH_SIZE];
@@ -77,7 +77,7 @@ double calc_cpu_usage(s32 pid)
 
 }
 
-void get_system_info(s32* total_ram, s32* used_ram, s32* cpu_cores)
+void get_system_info(long* total_ram, long* used_ram, long* cpu_cores)
 {
 
   struct sysinfo si;
@@ -182,7 +182,7 @@ void print_procs()
 
 }
 
-void kill_proc(s32 pid)
+void kill_proc(int pid)
 {
 
   if (kill(pid, SIGTERM) == 0) {
