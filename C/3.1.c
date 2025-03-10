@@ -8,7 +8,7 @@ int main(void)
 
   int func1(void)
   {
-    printf("Korea, Japan, Tokyo city, Tokyo, England, Yemen, good kill\n");
+    printf("Korea, Japan, Tokyo.\n");
   }
 
   func1();
