@@ -5,7 +5,7 @@
    Description:
    This is the RSA Encrypt/Decrypt
 
-   - BITS(2048 Bit Key using Encryption)
+   - BITS(2048 Bit Key using Encryption) from 512...(bit)
    - DOFI(doFinal) do final method support only byte series(bytes). -- and no more important args. only one arg is on,.
    
 
