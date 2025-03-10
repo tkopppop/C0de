@@ -195,4 +195,11 @@ def my_generator():
 gen = my_generator()
 print(next(gen), next(gen), next(gen))
 
-### python is a script of powerful and beautiful code style and walking style code indent all
+### python is a scripting.
+### system supports
+### but it's bad error control.
+### many not good deserted codes and walking code types in a one styles.
+### .
+### like this.
+### dirty
+
