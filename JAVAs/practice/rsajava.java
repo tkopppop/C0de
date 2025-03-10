@@ -6,7 +6,7 @@
    This is the RSA Encrypt/Decrypt
 
    - BITS(2048 Bit Key using Encryption)
-   - DOFI(doFinal)
+   - DOFI(doFinal) do final method support only byte series(bytes). -- and no more important args. only one arg is on,.
    
 
    *sigh* It's a my basic code to java programming language. is java good? x (by me)
