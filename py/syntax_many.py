@@ -104,4 +104,5 @@ def my_generator():
 gen = my_generator()
 print(next(gen), next(gen), next(gen))
 # end of codes
+# dirty
 
