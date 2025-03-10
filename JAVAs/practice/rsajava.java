@@ -10,6 +10,7 @@
    
 
    *sigh* It's a my basic code to java programming language. is java good? x (by me)
+   *sigh* passwd supportng pki's private style keyring is next types.
    
 */
 
