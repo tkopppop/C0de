@@ -1,3 +1,6 @@
+/*
+  Code Sign: author: x90c(tf8)###x90cx90c1@gmail.com
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
