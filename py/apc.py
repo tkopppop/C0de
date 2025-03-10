@@ -204,5 +204,5 @@ print(next(gen), next(gen), next(gen))
 ### .
 ### like this.
 ### dirty
-### 4 space? tab ? what the heck?! hacker style.
+### 4 space? tab ? what the heck?! hacker style. learn english and language of programmers and learn again hacking basis and learn hacking style debugger's ideas. :-/ hmm...
 
