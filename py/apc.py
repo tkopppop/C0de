@@ -3,7 +3,6 @@
 apc.py (Advanced Python Concepts)
 
 Author: from openAI import chatGPT codes
-Author editing learner: x90c(tf8) x90cx90c1@gmail.com
 
 """
 
