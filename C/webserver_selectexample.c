@@ -16,7 +16,7 @@
 
 #define PORT            8080
 #define BUF_SIZE        1024
-#define MAX_CLIENTS     10
+#define MAX_CLIENT      10
 
 
 void handle_client(int csock)
@@ -49,7 +49,7 @@ void handle_client(int csock)
 }
 
 
-int init_server(int* ssock, struct sockaddr_in* s_addr)
+int init_server(int* ssock, struct sockaddr_in* saddr)
 {
 
   *ssock = socket(AF_INET, SOCK_STREAM, 0);
@@ -58,17 +58,17 @@ int init_server(int* ssock, struct sockaddr_in* s_addr)
     return -1;
   }
 
-  s_addr->sin_family = AF_INET;
-  s_addr->sin_addr.s_addr = INADDR_ANY;
-  s_addr->sin_port = htons(PORT);
+  saddr->sin_family = AF_INET;
+  saddr->sin_addr.s_addr = INADDR_ANY;
+  saddr->sin_port = htons(PORT);
 
-  if (bind(*ssock, (struct sockaddr*)s_addr, sizeof(*s_addr)) == -1) {
+  if (bind(*ssock, (struct sockaddr*)saddr, sizeof(*saddr)) == -1) {
     perror("bind");
     close(*ssock);
     return -1;
   }
 
-  if (listen(*ssock, MAX_CLIENTS) == -1) {
+  if (listen(*ssock, MAX_CLIENT) == -1) {
     perror("listen");
     close(*ssock);
     return -1;
@@ -96,7 +96,7 @@ int main(int argc, char** argv)
   fd_set master_fds;
 
  
-  if (init_server(&ssock, &s_addr) == -1) {
+  if (init_server(&ssock, &saddr) == -1) {
     exit(EXIT_FAILURE);
   }
 
