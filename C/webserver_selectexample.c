@@ -1,6 +1,5 @@
 /*
   C0D3 take+ADN+align+sign: author: tf8 ###x90cx90c1@gmail.com
-  FULL CODE DISCLOSURE
 */
 
 #include <stdio.h>
