@@ -48,6 +48,7 @@ void handle_client(int client_sock) {
 }
 
 int main(int argc, char** argv) {
+  
   s32 server_sock;
   s32 client_sock;
   s32 max_fd;
@@ -123,6 +124,8 @@ int main(int argc, char** argv) {
   }
 
   close(server_sock);
-  return 0;
+  
+  return 1;
+
 }
 
