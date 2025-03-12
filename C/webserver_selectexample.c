@@ -1,5 +1,5 @@
 /*
-  tf8 align 80% ####x90cx90c1@gmail.com
+  tf8 align++++ ####x90cx90c1@gmail.com
 */
 
 #include <stdio.h>
