@@ -12,7 +12,7 @@
 #include <sys/select.h>
 
 #include "types.h"
-#include "perror.h"
+#include "debug.h"
 
 #define PORT            8080
 #define BUF_SIZE        1024
@@ -54,7 +54,7 @@ int init_server(int* server_sock, struct sockaddr_in* server_addr)
 
   *server_sock = socket(AF_INET, SOCK_STREAM, 0);
   if (*server_sock == -1) {
-    handle_error("socket");
+    PFATAL("socket");
   }
 
   server_addr->sin_family = AF_INET;
@@ -63,12 +63,12 @@ int init_server(int* server_sock, struct sockaddr_in* server_addr)
 
   if (bind(*server_sock, (struct sockaddr*)server_addr, sizeof(*server_addr)) == -1) {
     close(*server_sock);
-    handle_error("bind");
+    PFATAL("bind");
   }
 
   if (listen(*server_sock, MAX_CLIENTS) == -1) {
     close(*server_sock);
-    handle_error("listen"); 
+    PFATAL("listen"); 
   }
 
   return 0;
@@ -107,7 +107,7 @@ int main(int argc, char** argv)
 
     read_fds = master_fds;
 
-    if (select(max_fd + 1, &read_fds, NULL, NULL, NULL) == -1) handle_error("select");
+    if (select(max_fd + 1, &read_fds, NULL, NULL, NULL) == -1) PFATAL("select");
 
     for (fd = 0; fd <= max_fd; fd++) {
 
