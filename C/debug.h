@@ -1,4 +1,4 @@
-#define TALKS3_ONE_CHAN
+#define TALKS3_ON_ONE_CHAN
 
 void PFATAL(const char* msg)
 {
