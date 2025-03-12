@@ -20,7 +20,7 @@
 #define MAX_CLIENTS     10
 
 
-void handle_client(int client_sock)
+static void handle_client(int client_sock)
 {
     
   const char* res = "HTTP/1.1 200 OK\r\n"
@@ -49,13 +49,11 @@ void handle_client(int client_sock)
 }
 
 
-int init_server(int* server_sock, struct sockaddr_in* server_addr)
+static int init_server(int* server_sock, struct sockaddr_in* server_addr)
 {
 
   *server_sock = socket(AF_INET, SOCK_STREAM, 0);
-  if (*server_sock == -1) {
-    PFATAL("socket create failed");
-  }
+  if (*server_sock == -1) PFATAL("socket create failed"); 
 
   server_addr->sin_family = AF_INET;
   server_addr->sin_addr.s_addr = INADDR_ANY;
@@ -92,9 +90,7 @@ int main(int argc, char** argv)
   fd_set read_fds;
   fd_set master_fds;
 
-  if (init_server(&server_sock, &server_addr) == -1) {
-    exit(EXIT_FAILURE);
-  }
+  if (init_server(&server_sock, &server_addr) == -1) PFATAL("server creation failed");
 
   FD_ZERO(&master_fds);
   FD_SET(server_sock, &master_fds);
@@ -109,19 +105,18 @@ int main(int argc, char** argv)
     if (select(max_fd + 1, &read_fds, NULL, NULL, NULL) == -1) PFATAL("select");
 
     for (fd = 0; fd <= max_fd; fd++) {
-      if (FD_ISSET(fd, &read_fds)) {
-        if (fd == server_sock) {
-          client_sock = accept(server_sock, (struct sockaddr*)&client_addr, &addr_len);
-          if (client_sock == -1) PERROR_CONT("client socket accept failed");
-          FD_SET(client_sock, &master_fds);
-          if (client_sock > max_fd) max_fd = client_sock;
-          printf("new connection: %s:%d\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
-        } else {
-          handle_client(fd);
-          FD_CLR(fd, &master_fds);
+        if (FD_ISSET(fd, &read_fds)) {
+            if (fd == server_sock) {
+                client_sock = accept(server_sock, (struct sockaddr*)&client_addr, &addr_len);
+                if (client_sock == -1) PERROR_CONT("client socket accept failed");
+                FD_SET(client_sock, &master_fds);
+                if (client_sock > max_fd) max_fd = client_sock;
+                printf("new connection: %s:%d\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
+            } else {
+            handle_client(fd);
+            FD_CLR(fd, &master_fds);
+            }
         }
-      }
-
     }
 
   }
