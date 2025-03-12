@@ -27,7 +27,7 @@ void handle_client(int client_sock)
     
   const char* res = "HTTP/1.1 200 OK\r\n"
                     "Content-Type: text/html\r\n"
-                    "Content-Length: 56\r\n"
+                    "Content-Length: 60\r\n"
                     "Connection: close\r\n"
                     "\r\n"
                     "<html><body>Hello web server using select api.</body></html>";
