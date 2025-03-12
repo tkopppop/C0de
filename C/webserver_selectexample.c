@@ -109,7 +109,7 @@ int main(int argc, char** argv)
             if (fd == server_sock) {
                 client_sock = accept(server_sock, (struct sockaddr*)&client_addr, &addr_len);
                 if (client_sock == -1) {
-                    perror("client socket accept failed");
+                    perror("b-a-d-a-c-t-i-n-g: client socket accept failed");
                     continue;
                 }
                 FD_SET(client_sock, &master_fds);
