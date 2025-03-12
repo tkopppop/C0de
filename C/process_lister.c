@@ -1,5 +1,5 @@
 /*
-  AUTHOR: tf8 ####x90cx90c1@gmail.com (reading in) afford to edit
+  AUTHOR: tf8 ####x90cx90c1@gmail.com (reading in) afford to code
   Reading ...
 */
 #include <stdio.h>
