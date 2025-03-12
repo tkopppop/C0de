@@ -19,7 +19,7 @@
 #define MAX_CLIENTS     10
 
 
-void handle_client(int c_sock)
+void handle_client(int csock)
 {
     
   const char* res = "HTTP/1.1 200 OK\r\n"
@@ -33,9 +33,9 @@ void handle_client(int c_sock)
   s32 bytes_read;
 
 
-  bytes_read = read(c_sock, buf, sizeof(buf) - 1);
+  bytes_read = read(csock, buf, sizeof(buf) - 1);
   if (bytes_read <= 0) {
-    close(c_sock);
+    close(csock);
     return;
   }
   
@@ -43,17 +43,17 @@ void handle_client(int c_sock)
   
   printf("received request: \n%s\n", buf);
     
-  write(c_sock, res, strlen(res));
-  close(c_sock);
+  write(csock, res, strlen(res));
+  close(csock);
 
 }
 
 
-int init_server(int* s_sock, struct sockaddr_in* s_addr)
+int init_server(int* ssock, struct sockaddr_in* s_addr)
 {
 
-  *s_sock = socket(AF_INET, SOCK_STREAM, 0);
-  if (*s_sock == -1) {
+  *ssock = socket(AF_INET, SOCK_STREAM, 0);
+  if (*ssock == -1) {
     perror("socket");
     return -1;
   }
@@ -62,15 +62,15 @@ int init_server(int* s_sock, struct sockaddr_in* s_addr)
   s_addr->sin_addr.s_addr = INADDR_ANY;
   s_addr->sin_port = htons(PORT);
 
-  if (bind(*s_sock, (struct sockaddr*)s_addr, sizeof(*s_addr)) == -1) {
+  if (bind(*ssock, (struct sockaddr*)s_addr, sizeof(*s_addr)) == -1) {
     perror("bind");
-    close(*s_sock);
+    close(*ssock);
     return -1;
   }
 
-  if (listen(*s_sock, MAX_CLIENTS) == -1) {
+  if (listen(*ssock, MAX_CLIENTS) == -1) {
     perror("listen");
-    close(*s_sock);
+    close(*ssock);
     return -1;
   }
 
@@ -84,11 +84,11 @@ int main(int argc, char** argv)
 
   s32 max_fd;
   s32 fd;
-  s32 s_sock;
-  s32 c_sock;
+  s32 ssock;
+  s32 csock;
 
-  struct sockaddr_in s_addr;
-  struct sockaddr_in c_addr;
+  struct sockaddr_in saddr;
+  struct sockaddr_in caddr;
 
   socklen_t addr_len;
 
@@ -96,13 +96,13 @@ int main(int argc, char** argv)
   fd_set master_fds;
 
  
-  if (init_server(&s_sock, &s_addr) == -1) {
+  if (init_server(&ssock, &s_addr) == -1) {
     exit(EXIT_FAILURE);
   }
 
   FD_ZERO(&master_fds);
-  FD_SET(s_sock, &master_fds);
-  max_fd = s_sock;
+  FD_SET(ssock, &master_fds);
+  max_fd = ssock;
 
   printf("listen server port:%d\n", PORT);
 
@@ -118,15 +118,15 @@ int main(int argc, char** argv)
     for (fd = 0; fd <= max_fd; fd++) {
 
       if (FD_ISSET(fd, &read_fds)) {
-        if (fd == s_sock) {
-          c_sock = accept(s_sock, (struct sockaddr*)&c_addr, &addr_len);
-          if (c_sock == -1) {
+        if (fd == ssock) {
+          csock = accept(ssock, (struct sockaddr*)&caddr, &addr_len);
+          if (csock == -1) {
             perror("accept");
             continue;
           }
-          FD_SET(c_sock, &master_fds);
-          if (c_sock > max_fd) max_fd = c_sock;
-          printf("new connection: %s:%d\n", inet_ntoa(c_addr.sin_addr), ntohs(c_addr.sin_port));
+          FD_SET(csock, &master_fds);
+          if (csock > max_fd) max_fd = csock;
+          printf("new connection: %s:%d\n", inet_ntoa(caddr.sin_addr), ntohs(caddr.sin_port));
         } else {
           handle_client(fd);
           FD_CLR(fd, &master_fds);
@@ -137,7 +137,7 @@ int main(int argc, char** argv)
 
   }
 
-  close(s_sock);
+  close(ssock);
 
   return 0;
 
