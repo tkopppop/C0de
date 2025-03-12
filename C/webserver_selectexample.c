@@ -20,8 +20,6 @@
 #define MAX_CLIENTS     10
 
 
-
-
 void handle_client(int client_sock)
 {
     
