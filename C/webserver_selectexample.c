@@ -14,7 +14,6 @@
 #include "types.h"
 #include "debug.h"
 
-
 #define PORT            8080
 #define BUF_SIZE        1024
 #define MAX_CLIENTS     10
