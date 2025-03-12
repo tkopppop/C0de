@@ -28,20 +28,20 @@ void handle_client(int c_sock)
                     "Connection: close\r\n"
                     "\r\n"
                     "<html><body>Hello web server using select api.</body></html>";
-  char buffer[BUF_SIZE];
+  char buf[BUF_SIZE];
 
   s32 bytes_read;
 
 
-  bytes_read = read(c_sock, buffer, sizeof(buffer) - 1);
+  bytes_read = read(c_sock, buf, sizeof(buf) - 1);
   if (bytes_read <= 0) {
     close(c_sock);
     return;
   }
   
-  buffer[bytes_read] = '\0';
+  buf[bytes_read] = '\0';
   
-  printf("received request: \n%s\n", buffer);
+  printf("received request: \n%s\n", buf);
     
   write(c_sock, res, strlen(res));
   close(c_sock);
