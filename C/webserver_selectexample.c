@@ -1,7 +1,6 @@
 /*
   C0D3 take+ADN+align+sign: author: tf8 ###x90cx90c1@gmail.com
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,19 +13,20 @@
 #include "types.h"
 
 
-#define PORT            8080
+#define SERVER_PORT     8080
 #define BUFFER_SIZE     1024
 #define MAX_CLIENTS     10
 
 
-void handle_client(int client_sock) {
+void handle_client(int client_sock)
+{
     
   const char* response = "HTTP/1.1 200 OK\r\n"
                          "Content-Type: text/html\r\n"
                          "Content-Length: 56\r\n"
                          "Connection: close\r\n"
                          "\r\n"
-                         "<html><body><h1>Hello web server using select api.</h1></body></html>";
+                         "<html><body>Hello web server using select api.</body></html>";
   char buffer[BUFFER_SIZE];
 
   s32 bytes_read;
@@ -47,40 +47,54 @@ void handle_client(int client_sock) {
 
 }
 
-int main(int argc, char** argv) {
-  
-  s32 server_sock;
-  s32 client_sock;
+
+int init_server(int* server_sock, struct sockaddr_in* server_addr) {
+
+  *server_sock = socket(AF_INET, SOCK_STREAM, 0);
+  if (*server_sock == -1) {
+    perror("socket");
+    return -1;
+  }
+
+  server_addr->sin_family = AF_INET;
+  server_addr->sin_addr.s_addr = INADDR_ANY;
+  server_addr->sin_port = htons(SERVER_PORT);
+
+  if (bind(*server_sock, (struct sockaddr*)server_addr, sizeof(*server_addr)) == -1) {
+    perror("bind");
+    close(*server_sock);
+    return -1;
+  }
+
+  if (listen(*server_sock, MAX_CLIENTS) == -1) {
+    perror("listen");
+    close(*server_sock);
+    return -1;
+  }
+
+  return 0;
+
+}
+
+
+int main(int argc, char** argv)
+{
+
   s32 max_fd;
   s32 fd;
- 
-  struct sockaddr_in server_addr, client_addr;
+  s32 server_sock;
+  s32 client_sock;
+
+  struct sockaddr_in server_addr;
+  struct sockaddr_in client_addr;
+
   socklen_t addr_len;
+
   fd_set read_fds;
   fd_set master_fds;
 
-  
-  addr_len = sizeof(client_addr);
-
-  server_sock = socket(AF_INET, SOCK_STREAM, 0);
-  if (server_sock == -1) {
-    perror("socket");
-    exit(EXIT_FAILURE);
-  }
-
-  server_addr.sin_family = AF_INET;
-  server_addr.sin_addr.s_addr = INADDR_ANY;
-  server_addr.sin_port = htons(PORT);
-
-  if (bind(server_sock, (struct sockaddr*)&server_addr, sizeof(server_addr)) == -1) {
-    perror("bind");
-    close(server_sock);
-    exit(EXIT_FAILURE);
-  }
-
-  if (listen(server_sock, MAX_CLIENTS) == -1) {
-    perror("listen");
-    close(server_sock);
+ 
+  if (init_server(&server_sock, &server_addr) == -1) {
     exit(EXIT_FAILURE);
   }
 
@@ -88,7 +102,7 @@ int main(int argc, char** argv) {
   FD_SET(server_sock, &master_fds);
   max_fd = server_sock;
 
-  printf("listen server port:%d\n", PORT);
+  printf("listen server port:%d\n", SERVER_PORT);
 
   while (1) {
 
@@ -108,9 +122,7 @@ int main(int argc, char** argv) {
             perror("accept");
             continue;
           }
-
           FD_SET(client_sock, &master_fds);
-
           if (client_sock > max_fd) max_fd = client_sock;
           printf("new connection: %s:%d\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
         } else {
@@ -124,8 +136,7 @@ int main(int argc, char** argv) {
   }
 
   close(server_sock);
-  
-  return 1;
+
+  return 0;
 
 }
-
