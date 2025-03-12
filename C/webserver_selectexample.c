@@ -12,18 +12,11 @@
 #include <sys/select.h>
 
 #include "types.h"
-
+#include "error.h"
 
 #define PORT            8080
 #define BUF_SIZE        1024
 #define MAX_CLIENTS     10
-
-
-void handle_error(const char* msg)
-{
-  perror(msg);
-  exit(EXIT_FAILURE);
-}
 
 
 void handle_client(int client_sock)
