@@ -14,6 +14,7 @@
 #include <sys/sysinfo.h>
 
 #include "types.h"
+#include "debug.h"
 
 #define STAT_PATH        "/proc/%d/stat"
 #define STATUS_PATH      "/proc/%d/status"
@@ -142,14 +143,14 @@ void load_procs()
       fp = fopen(path, "r");
 
       if (fp) {
-        char line[128];
-        while (fgets(line, sizeof(line), fp)) {
-          if (strncmp(line, "VmRSS:", 6) == 0) {
-            sscanf(line, "VmRSS: %ld kB", &proc->memory);
-            break;
+          char line[128];
+          while (fgets(line, sizeof(line), fp)) {
+              if (strncmp(line, "VmRSS:", 6) == 0) {
+                  sscanf(line, "VmRSS: %ld kB", &proc->memory);
+                  break;
+              }
           }
-        }
-        fclose(fp);
+          fclose(fp);
       }
 
       proc->cpu_usage = calc_cpu_usage(pid);
@@ -194,15 +195,15 @@ void kill_proc(int pid)
     printf("Process %d terminated successfully\n", pid);
 
     for (int i = 0; i < cntproc; i++) {
-      if (pi[i].pid == pid) {
-        pi[i].active = 0;
-        break;
-      }
+        if (pi[i].pid == pid) {
+            pi[i].active = 0;
+            break;
+        }
     }
 
   } else {
 
-    perror("_Failed to kill process");
+    PFATAL("_Failed to kill process");
 
   }
 
