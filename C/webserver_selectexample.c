@@ -14,9 +14,12 @@
 #include "types.h"
 #include "debug.h"
 
+
 #define PORT            8080
 #define BUF_SIZE        1024
 #define MAX_CLIENTS     10
+
+
 
 
 void handle_client(int client_sock)
@@ -53,7 +56,7 @@ int init_server(int* server_sock, struct sockaddr_in* server_addr)
 
   *server_sock = socket(AF_INET, SOCK_STREAM, 0);
   if (*server_sock == -1) {
-    PFATAL("socket");
+    PFATAL("socket create failed");
   }
 
   server_addr->sin_family = AF_INET;
@@ -62,12 +65,12 @@ int init_server(int* server_sock, struct sockaddr_in* server_addr)
 
   if (bind(*server_sock, (struct sockaddr*)server_addr, sizeof(*server_addr)) == -1) {
     close(*server_sock);
-    PFATAL("bind");
+    PFATAL("socket binding failed");
   }
 
   if (listen(*server_sock, MAX_CLIENTS) == -1) {
     close(*server_sock);
-    PFATAL("listen"); 
+    PFATAL("socket listen failed"); 
   }
 
   return 0;
@@ -113,7 +116,7 @@ int main(int argc, char** argv)
         if (fd == server_sock) {
           client_sock = accept(server_sock, (struct sockaddr*)&client_addr, &addr_len);
           if (client_sock == -1) {
-            perror("accept");
+            perror("client socket accept failed");
             continue;
           }
           FD_SET(client_sock, &master_fds);
