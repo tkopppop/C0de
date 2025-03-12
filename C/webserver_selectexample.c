@@ -12,7 +12,7 @@
 #include <sys/select.h>
 
 #include "types.h"
-#include "error.h"
+#include "perror.h"
 
 #define PORT            8080
 #define BUF_SIZE        1024
