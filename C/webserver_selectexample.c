@@ -1,5 +1,5 @@
 /*
-  C0D3 take+ADN+align+sign: author: tf8 ###x90cx90c1@gmail.com
+  tf8 ####x90cx90c1@gmail.com
 */
 
 #include <stdio.h>
