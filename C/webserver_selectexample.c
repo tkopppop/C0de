@@ -108,7 +108,10 @@ int main(int argc, char** argv)
         if (FD_ISSET(fd, &read_fds)) {
             if (fd == server_sock) {
                 client_sock = accept(server_sock, (struct sockaddr*)&client_addr, &addr_len);
-                if (client_sock == -1) PERROR_CONT("client socket accept failed");
+                if (client_sock == -1) {
+                    perror("client socket accept failed");
+                    continue;
+                }
                 FD_SET(client_sock, &master_fds);
                 if (client_sock > max_fd) max_fd = client_sock;
                 printf("new connection: %s:%d\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
