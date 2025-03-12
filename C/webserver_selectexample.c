@@ -29,9 +29,7 @@ void handle_client(int client_sock)
                     "\r\n"
                     "<html><body>Hello web server using select api.</body></html>";
   char buf[BUF_SIZE];
-
   s32 bytes_read;
-
 
   bytes_read = read(client_sock, buf, sizeof(buf) - 1);
   if (bytes_read <= 0) {
@@ -83,16 +81,12 @@ int main(int argc, char** argv)
   s32 fd;
   s32 server_sock;
   s32 client_sock;
-
   struct sockaddr_in server_addr;
   struct sockaddr_in client_addr;
-
   socklen_t addr_len;
-
   fd_set read_fds;
   fd_set master_fds;
 
- 
   if (init_server(&server_sock, &server_addr) == -1) {
     exit(EXIT_FAILURE);
   }
