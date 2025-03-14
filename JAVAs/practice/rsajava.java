@@ -1,6 +1,6 @@
 /*
    Filename: RSAJava.java
-   Author: KJ
+   Author: x90c(tf8) as KyongJu_Jung
 
    Description:
    This is the RSA Encrypt/Decrypt
