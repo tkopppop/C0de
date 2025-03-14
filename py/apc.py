@@ -2,9 +2,7 @@
 
 apc.py (Advanced Python Concepts)
 
-Author: from openAI import chatGPT codes
-
-tf8
+tf8 x90c
 
 """
 
