@@ -1,5 +1,3 @@
-#define TALKS3_ON_ONE_CHAN
-
 void PFATAL(const char* msg)
 {
   perror(msg);
