@@ -8,7 +8,7 @@ int main(void)
 
   int func1(void)
   {
-    printf("tf8 - x90c\n");
+    printf("tf8 - x90c - never abuse my crediting sites and all codes as you felt without not knowing it exactly who's code is\n");
   }
 
   func1();
