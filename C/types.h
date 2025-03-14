@@ -1,5 +1,3 @@
-#define TALKS3_ON_ONE_CHANN
-
 #include <stdint.h>
 
 typedef uint8_t  u8;
