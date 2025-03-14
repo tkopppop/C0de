@@ -2,6 +2,8 @@
 
 """
 Python Exam1
+
+tf8
 """
 
 # 1- var and data type
