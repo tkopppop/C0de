@@ -8,7 +8,7 @@ int main(void)
 
   int func1(void)
   {
-    printf("tf8 - x90c korea?\n");
+    printf("tf8 - x90c korea japjapjapjap\n");
   }
 
   func1();
