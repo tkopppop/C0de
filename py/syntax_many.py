@@ -80,7 +80,7 @@ with open("sample.txt", "r") as file:
 squared_numbers = [x**2 for x in range(5)]
 print(squared_numbers)
 
-# 11- lambda funcs (람다 함수들) **(네개씩쓰는걸 기준으로 배워야 고급 파이썬이겠죠?!)네-는 씨언어에서 ^ <- 제곱 구하는 거랑 같은데 **로 쓰는거?)
+# 11- lambda funcs (람다 함수들) **(네개씩쓰는걸 기준으로 배워야 고급 파이썬이겠죠?!) 씨언어에서는 하나씩 띄워서 곱하기 해야 하죠 ^^ 2*2*2*2 네. 그런 표현이네요 같은-)
 square = lambda x: x ** 2
 print(square(4))
 
