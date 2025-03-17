@@ -1,5 +1,5 @@
 /*
-   x90c tf8
+   x90c tf8 pointer
 */
 
 #include <stdio.h>
