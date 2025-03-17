@@ -1,6 +1,6 @@
 /*
   webserver_select_study.C [c -> C]
-  author: AI and me.
+  author: program
 */
 
 #include <stdio.h>
