@@ -1,5 +1,5 @@
 /*
-    process_lister.C [ c -> C ]
+    process_lister.C [c -> C]
     Author: program
 */
 
