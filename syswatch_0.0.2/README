@@ -1,6 +1,5 @@
+Hacker style exploit once checking routines.
 
-Program
-(Hacker)
 
 I designed the syswatch LKM that host-based intrusion protection
 system that LKM in 2004-2005. It's a linux kernel protection to 
