@@ -21,27 +21,27 @@ programmer KyongJoo(Ju), Jung<br>
 <br>
 a(c)<br>
 {<br>
-&nbsp;&nbsp;C function hyper automate typing system.<br>
+&nbsp;&nbsp;C function hyperbinding automate typing system.<br>
 &nbsp;&nbsp;:-)<br>
 }<br>
 <br>
 b(c)<br>
 {<br>
-&nbsp;&nbsp;C function hyper automate voice choice<br>
+&nbsp;&nbsp;C function hyperbinding automate voice choice<br>
 }<br>
 <br>
 c(c)<br>
 {<br>
-&nbsp;&nbsp;C function hyper automate fuzz<br>
+&nbsp;&nbsp;C function hyperbinding automate fuzz<br>
 }<br>
 <br>
 d(c)<br>
 {<br>
-&nbsp;&nbsp;C function automate deb.(ergging) discovery assembler codes<br>
+&nbsp;&nbsp;C function hyperbinding automate deb.(ergging) discovery assembler codes<br>
 }<br>
 <br>
 e(c)<br>
 {<br>
-&nbsp;&nbsp;C function automate checking (color checks in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
+&nbsp;&nbsp;C function hyperbinding automate checking (color checks in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
 }<br>
 
