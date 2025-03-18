@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-
+/* Entry Points */
 int 
 main(void)
 {
