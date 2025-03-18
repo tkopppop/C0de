@@ -1,5 +1,5 @@
 /*
-  webserver_select_study.C [ai c -> c -> C -> copycat -> flaming -> noname_web_server.selectfix.c
+  webserver_select_study.C [ai c -> c -> C -> copycat -> flaming -> noname_web_server.select.c
   author: programmer KJ
 */
 
