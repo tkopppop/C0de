@@ -1,6 +1,6 @@
 /*
     process_lister.C [c -> C]
-    Author: program
+    Author: programmer KJ
 */
 
 #include <stdio.h>
