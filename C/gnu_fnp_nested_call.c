@@ -4,11 +4,13 @@
 
 #include "types.h"
 
-void nests1(int i) {
+void 
+nests1(int i) {
 
   s32 nest2_internal_i;
 
-  s32 inter_net(s32 arg_y) {
+  int32_t 
+  inter_net(s32 arg_y) {
      return arg_y * 2;
   }
 
@@ -21,7 +23,9 @@ void nests1(int i) {
 
 }
 
-int main()
+/* EP */
+int 
+main()
 {
 
   nests1(3);
