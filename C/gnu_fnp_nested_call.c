@@ -1,6 +1,4 @@
-/*
-   x90c tf8 func pointer
-*/
+/* fnp ***/
 
 #include <stdio.h>
 
