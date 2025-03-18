@@ -1,0 +1,2 @@
+#!/bin/bash
+./logmon symlink/ptrace/execve/chroot/listen 3333 &
