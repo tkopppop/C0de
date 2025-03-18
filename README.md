@@ -21,27 +21,27 @@ programmer KyongJoo(Ju), Jung<br>
 <br>
 a(c)<br>
 {<br>
-  C function hyper auto mate typing system.<br>
-  :-)<br>
+&nbsp;&nbsp;C function hyper auto mate typing system.<br>
+&nbsp;&nbsp;:-)<br>
 }<br>
 <br>
 b(c)<br>
 {<br>
-  C function hyper auto mate voice choice<br>
+&nbsp;&nbsp;C function hyper auto mate voice choice<br>
 }<br>
 <br>
 c(c)<br>
 {<br>
-  C function hyper auto fuzz<br>
+&nbsp;&nbsp;C function hyper auto fuzz<br>
 }<br>
 <br>
 d(c)<br>
 {<br>
-  C function auto deb.(ergging) discovery assembler codes<br>
+&nbsp;&nbsp;C function auto deb.(ergging) discovery assembler codes<br>
 }<br>
 <br>
 e(c)<br>
 {<br>
-  C function auto checking (color check in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
+&nbsp;&nbsp;C function auto checking (color check in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
 }<br>
 
