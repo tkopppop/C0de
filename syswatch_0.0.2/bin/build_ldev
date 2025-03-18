@@ -1,7 +1,0 @@
-#!/bin/bash
-if [ -f /dev/logwatch ]; then
-	rm -rf /dev/logwatch
-fi
-echo -e "Log Character Device (/dev/logwatch) Special Object Created.\n"
-mknod /dev/logwatch c 213 0
-
