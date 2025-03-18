@@ -1,5 +1,5 @@
 /*
-  Filename: 3.1.C [c -> C]
+  Filename: nested_func_3.1.C
   Author: tf8(x90c hacker 1337s).
 */
 
