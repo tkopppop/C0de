@@ -10,7 +10,8 @@ int main(void)
 
   int func1(void)
   {
-    printf("tf8 - x90c korea japjapjapjapanese thinking lover\n");
+    printf("MM\n");
+    printf("japjapjapjapanese thinking lover\n");
   }
 
   func1();
