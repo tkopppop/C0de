@@ -7,7 +7,7 @@ class UThread extends Thread{
 public class javaMainThread_test{
   public static void main(String[] args)
   {
-    MyThread myth = new UThread();
+    UThread myth = new UThread();
 
     System.out.print("[Threads]\n"); 
     myth.run(7);
