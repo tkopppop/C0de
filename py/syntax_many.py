@@ -3,9 +3,6 @@
 """
 Python Exam1
 
-tf8
-amp&nbsp;;;;;;;;; style.
-
 """
 
 # 1- var and data type
