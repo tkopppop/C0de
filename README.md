@@ -32,16 +32,16 @@ b(c)<br>
 <br>
 c(c)<br>
 {<br>
-&nbsp;&nbsp;C function hyper auto fuzz<br>
+&nbsp;&nbsp;C function hyper auto mate fuzz<br>
 }<br>
 <br>
 d(c)<br>
 {<br>
-&nbsp;&nbsp;C function auto deb.(ergging) discovery assembler codes<br>
+&nbsp;&nbsp;C function auto mate deb.(ergging) discovery assembler codes<br>
 }<br>
 <br>
 e(c)<br>
 {<br>
-&nbsp;&nbsp;C function auto checking (color check in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
+&nbsp;&nbsp;C function auto mate checking (color check in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
 }<br>
 
