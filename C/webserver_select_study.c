@@ -1,6 +1,6 @@
 /*
   webserver_select_study.C [c -> C]
-  author: program
+  author: programmer KJ
 */
 
 #include <stdio.h>
