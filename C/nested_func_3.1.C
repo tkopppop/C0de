@@ -5,10 +5,12 @@
 #include <unistd.h>
 
 
-int main(void)
+int 
+main(void)
 {
 
-  int func1(void)
+  int 
+  func1(void)
   {
     printf("MM\n");
     printf("japjapjapjapanese thinking lover\n");
