@@ -2,7 +2,6 @@
 
 apc.py (Advanced Python Concepts)
 
-tf8 x90c
 
 """
 
