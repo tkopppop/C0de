@@ -19,6 +19,9 @@ The design goal is -to reduce the linux boxes security risk
 via protect all general hacking attacks, to make the linux boxes
 similar with secure OS-
 
+[Buggy] race condition checks occured panic down of a linux system.
+again test needed. but it's too old version. i was been a happy programmer!
+
 
 tf8
 
