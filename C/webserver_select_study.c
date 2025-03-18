@@ -1,5 +1,5 @@
 /*
-  webserver_select_study.C [ai c -> c -> C -> copycat -> flaming]
+  webserver_select_study.C [ai c -> c -> C -> copycat -> flaming -> noname_web_server.selectfix.c
   author: programmer KJ
 */
 
@@ -130,3 +130,6 @@ int main(int argc, char** argv)
 
 }
 
+/*
+  // ] EOC
+*/
