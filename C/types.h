@@ -1,5 +1,6 @@
 #include <stdint.h>
-/* copycat error -7 */
+
+/* integer types (signed, unsigned) for each lengthes */
 typedef uint8_t  u8;
 typedef uint16_t u16;
 typedef uint32_t u32;
