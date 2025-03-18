@@ -4,6 +4,8 @@
 Python Exam1
 
 tf8
+amp style.
+
 """
 
 # 1- var and data type
