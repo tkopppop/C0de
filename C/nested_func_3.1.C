@@ -1,7 +1,4 @@
-/*
-  Filename: nested_func_3.1.C
-  Author: tf8(x90c hacker 1337s).
-*/
+/* ***/
 
 #include <stdio.h>
 #include <stdlib.h>
