@@ -1,5 +1,4 @@
-/* error programming it's just code snip
-  */
+/*snip*/
 class UThread extends Thread{
   public void run(int i){ 
     System.out.println("my thread 1: arg1(" + i + ") only\n");
