@@ -86,7 +86,7 @@ print(squared_numbers)
 square = lambda x: x ** 2
 print(square(4))
 
-# 12- decoration
+# 12- decoration wrapper function could be define for calling say_hello()
 def decorator(func):
   def wrapper():
     print("pre function to call")
@@ -94,11 +94,11 @@ def decorator(func):
     print("after function to called")
   return wrapper
 
-@decorator
+@decorator # @repeat(3)와 같이 데코레이터를 설정할 수 있음. 데코레이터에서는 n: int와 같이 인자를 수신해야 한다.
 def say_hello():
   print("Hello!")
 
-  say_hello()
+  say_hello() # say_hello -> say_hello decorator -> say_hello(by func) -> say_hello(not call decorator) direct say_hello func calling made.
 
 # 13- generator
 def my_generator():
