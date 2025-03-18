@@ -42,6 +42,6 @@ d(c)<br>
 <br>
 e(c)<br>
 {<br>
-&nbsp;&nbsp;C function auto mate checking (color check in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
+&nbsp;&nbsp;C function auto mate checking (color checks in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
 }<br>
 
