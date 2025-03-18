@@ -11,8 +11,6 @@
 
    *sigh* It's a my basic code to java programming language. is java good? x (by me)
    *sigh* passwd supportng pki's private style keyring is next types.
-
-   ***** danger: no more copycat program writers. just use java for the program and no more make your confidence by java. it's component style.
    
 */
 
