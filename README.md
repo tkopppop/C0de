@@ -2,10 +2,6 @@
 ::<br>
 ::<br>
 ::<br>
-<br>
-:: security program<br>
-- syswatch 0.0.2 (linux gcc libmysql) IDS (IPS)<br>
-<br>
 ::<br>
 ::<br>
 <br>
