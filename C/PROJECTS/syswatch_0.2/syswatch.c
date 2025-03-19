@@ -1,20 +1,21 @@
 /*
- * ############################################################
- *
- *         Linux System Protection Project ( LSP2 )
- *              Ver Scenario #5
- *
- *      Platform : LINUX 2.4.24 KERNEL
- *      Compilier : .. GCC-2.95.4 or GCC-3.33 ..
- *
- * ############################################################
- *
- * (Protect Features)
- * 1. RaceCondtion Bug
- * 2. Ptrace
- * 3. Gain root shell
- * 4. chroot break
- * 5. Socketcall Listen ACL
+  ############################################################
+
+         Linux System Protection Project ( LSP2 )
+              Ver Scenario #5
+
+         Platform : LINUX 2.4.24 KERNEL
+         Compilier : .. GCC-2.95.4 or GCC-3.33 ..
+
+  ############################################################
+
+ (Protect Features)
+ 1. RaceCondtion Bug
+ 2. Ptrace
+ 3. Gain root shell
+ 4. chroot break
+ 5. Socketcall Listen ACL
+ 
 */
 
 /* Defining KERNEL MODULE */
@@ -411,7 +412,7 @@ dev_close
 
 
 
-/* Driver Entry */
+/* Driver EntryPoint(EP...) */
 int __init DriverEntry(void){
 
 	init_MUTEX(&my_sem); 
@@ -446,7 +447,7 @@ int __init DriverEntry(void){
 return 0;
 }
 
-/* Driver End Point */
+/* Driver Ending... (Point not important for hackers) */
 void __exit DriverX(void){
 	
 	if(down_trylock(&my_sem)) down_interruptible(&my_sem);
@@ -470,6 +471,18 @@ void __exit DriverX(void){
 module_init(DriverEntry);
 module_exit(DriverX);
 
-// License GPL
+/* License GPL */
 MODULE_LICENSE("GPL"); 
+
+// LGPL? also *1yes
+
+// EoF
+
+// EoC
+
+// EoM
+
+// EoB
+
+// EoBits
 
