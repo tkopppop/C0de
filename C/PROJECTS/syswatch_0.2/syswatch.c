@@ -1,8 +1,8 @@
 /*
   ############################################################
 
-         Linux System Protection Project ( LSP2 )
-              Ver Scenario #5
+         LSP ( LSP2 )
+	 Ver Scenario #5 ( -1 faulty)))
 
          Platform : LINUX 2.4.24 KERNEL
          Compilier : .. GCC-2.95.4 or GCC-3.33 ..
