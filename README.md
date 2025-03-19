@@ -37,7 +37,7 @@ c(c)<br>
 <br>
 d(c)<br>
 {<br>
-&nbsp;&nbsp;C function hyperbinding automate deb.(ergging) discovery assembler codes<br>
+&nbsp;&nbsp;C function hyperbinding automate debu.(gging) discovery assembler codes<br>
 }<br>
 <br>
 e(c)<br>
