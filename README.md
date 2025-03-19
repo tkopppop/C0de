@@ -7,7 +7,7 @@
 <br>
 .<br>
 <br>
-IDEA from inmyselves.<br>
+IDEA from inmyselves<br>
 <br>
 i am honest!<br>
 i am honest!!<br>
