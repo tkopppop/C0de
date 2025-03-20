@@ -15,7 +15,6 @@ main(int argc, char** argv)
 
   uint32_t i, cnt, oflag;
 
-
   printf("Programming.\n" \
          "_\n\n\n\n\n\n\n");
 
