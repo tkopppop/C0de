@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-  printf("hackertickit - no fuzzer is hacking tool\n");
+  printf("hackertickit - no fuzzer is the hacking tool\n");
 
   printf("game maker\n");
 
