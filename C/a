@@ -1,5 +1,5 @@
 /*
-  portress1.c by MM
+  portres: fractal1.c by MM
 */
 
 #include <stdio.h>
@@ -8,26 +8,28 @@
 #include <stdint.h>
 #include <sys/types.h>
 
-void
+int
 out_range(void)
 {
   perror("out checking!");
   exit(EXIT_FAILURE);
-
 }
 
 int
 main(int argc, char** argv) 
 {
 
-  uint32_t i, count, oflag;
+  uint32_t kind, i, count, oflag;
 
   printf("Programming.\n_\n\n\n\n\n\n\n");
 
   /* input number 1~100 (bounds-checking exists) */
   scanf("%u", &count);
-  (count <= 1 || count > 100) ? out_range(): -1;
-  
+  kind = (count <= 1 || count > 100) ? out_range(): -1;
+  if (kind == -1) {
+
+  }
+ 
   --count;
   count *= 2;
 
@@ -60,3 +62,4 @@ outro:
 }
 
 /* EoC */
+/* EoF */
