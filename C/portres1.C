@@ -33,7 +33,7 @@ main(int argc, char** argv)
 
 /*
   In a loop, initial i variable set by 1  
-  And ### $$$ ### $$ ### <- print all requeted 
+  And ### $$$ ### $$ ### <- print all requested 
   BY user interact. SCANF!
 */
 
