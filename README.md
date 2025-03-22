@@ -46,4 +46,4 @@ e(c)<br>
 {<br>
 &nbsp;&nbsp;C function hyperbinding automate checking (color checks in monitor’s screen x, y, z, t, o , c , p, a, l, 0)<br> 
 }<br>
-
+EOF
