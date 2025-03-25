@@ -10,10 +10,16 @@
 IDEA from inmyselves<br>
 <br>
 i am honest!<br>
-i am honest!!<br>
-i am honest!!!<br>
-i am honest!!!!<br>
-i am honest!!!!!<br>
+but no fool<br>
+use others code freely in private manner<br>
+and make a big source code farm<br>
+devel!<br>
+coding!!<br>
+run!!!<br>
+debugging!!!!<br>
+runrunrun fuzz!!!!!<br>
+ai is the topmost important but nope!<br>
+<br>
 programmer K,J, Jung (South korean but not all for in)<br>
 <br>
 programmer KyongJoo(Ju), Jung<br>
