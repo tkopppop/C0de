@@ -6,8 +6,8 @@
 ::<br>
 <br>
 .<br>
-<br>
-IDEA from inmyselves<br>
+idea to steal all the world source codes.!
+
 <br>
 i am honest!<br>
 but no fool<br>
