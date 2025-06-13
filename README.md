@@ -1,6 +1,5 @@
-# code guru
-guru guru guru.<br>
-.<br>
+# code devel
+guru.
 pure code about 20 more.<br>
 i can use two keyboard.<br>
 computers<br>
