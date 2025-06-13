@@ -6,7 +6,6 @@ void main(void) {
 
 #include <stdio.h>
 #include <stdlib.h>
-int main2(void) { }
 
 /* no override, overload */
 
