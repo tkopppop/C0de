@@ -8,4 +8,3 @@ can you do?<br>
 i can code<br>
 min<br>
 GW<br>
-tbs, kbs2, kbs1<br><br><br>
