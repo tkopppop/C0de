@@ -7,4 +7,5 @@ you can learn pure C codes in my legacy parti. and thanks to me about the facts.
 can you do?<br>
 i can code<br>
 min<br>
-GW
+GW<br>
+tbs, kbs2, kbs1<br><br><br>
