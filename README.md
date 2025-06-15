@@ -6,4 +6,5 @@ computers<br>
 you can learn pure C codes in my legacy parti. and thanks to me about the facts.<br>
 can you do?<br>
 i can code<br>
-min
+min<br>
+GW
