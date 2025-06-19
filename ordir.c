@@ -12,22 +12,13 @@ int main(int argc, char *argv[]) {
 DIR *adir;
 struct dirent *dirent1;
 int atype;
-char args[128];
+char args[128] = ".";
 struct stat fstat1;
 struct passwd *pw;
 struct group  *gr;
 
-if (argc < 2) {
-        printf("%s [dir to listing]\n", argv[0]);
-        return(0);
-}
-
-if (strlen(argv[1]) <= 128) {
+if (argv[1] != NULL && strlen(argv[1]) <= 128)
         strncpy(args, argv[1], sizeof(args) - 1);
-} else {
-        args[0] = '.';
-        args[1] = '\0';
-}
 
 if ((adir = opendir(args)) == NULL) {
         printf("error open dir %s\n", args);
