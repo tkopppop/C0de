@@ -30,10 +30,10 @@ for (atype = 0; atype < 3; atype++) {
                 if (atype == 0 && dirent1->d_type == DT_DIR) {
                         printf("DIR: ");
                         if ((dirent1->d_name[0] == '.' && dirent1->d_name[1] == '\0') ||
-                        (dirent1->d_name[0] == '.' && dirent1->d_name[1] == '.' && dirent1->d_name[2] == '\0'))
+                           (dirent1->d_name[0] == '.' && dirent1->d_name[1] == '.' && dirent1->d_name[2] == '\0'))
                          printf("<. / ..>");
                         else
-                         printf("[hidden dir]");
+                                printf("[hidden dir]");
                         stat(args, &fstat1);
                         pw = getpwuid(fstat1.st_uid);
                         gr = getgrgid(fstat1.st_gid);
@@ -42,7 +42,7 @@ for (atype = 0; atype < 3; atype++) {
                 } else if (atype == 1 && dirent1->d_type == DT_REG) {
                         printf("FILE: ");
                         if (dirent1->d_name[0] == '.')
-                         printf("[hidden file]");
+                                printf("[hidden file]");
                         stat(args, &fstat1);
                         pw = getpwuid(fstat1.st_uid);
                         gr = getgrgid(fstat1.st_gid);
@@ -50,7 +50,7 @@ for (atype = 0; atype < 3; atype++) {
                         printf("|inode=%ld | %s\n", dirent1->d_ino, dirent1->d_name);
                 } else if (atype == 2 && (dirent1->d_type != DT_DIR && dirent1->d_type != DT_REG)){
                         if (dirent1->d_type == DT_LNK)
-                         printf("[symlink]");
+                                printf("[symlink]");
                         stat(args, &fstat1);
                         pw = getpwuid(fstat1.st_uid);
                         gr = getgrgid(fstat1.st_gid);
