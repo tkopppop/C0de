@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int mangle_check() {
-        int a = rand() % 3;
+        int a = rand()%3;
 
         if (a == 0) {
                 printf("%%");
@@ -16,20 +17,23 @@ int mangle_check() {
 
 int main() {
 int i;
+clock_t start = clock();
 
         srand(time(NULL));
 
-        for (i = 0; i < 30000; i++) {
-                if ((i % 25) == 0) {
+        while (((double)(clock() - start) / CLOCKS_PER_SEC) < 5.0)
+                {
+                if ((i++ % 25) == 0) {
                         printf("\n");
                 }
 
                 for (int a = 0; a < 3; a++) {
                         mangle_check();
-                        usleep(120);
                 }
 
-                if((i % 2000) == 0)
+                if(i > 5000) {
                         printf("\033[H");
+                        i = 0;
+                }
         }
 }
