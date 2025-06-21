@@ -8,14 +8,23 @@
 #include <pwd.h>
 #include <grp.h>
 
+void print_fusergroupname(char *args)
+{
+struct stat fstat1;
+struct passwd *pw;
+struct group  *gr;
+
+        stat(args, &fstat1);
+        pw = getpwuid(fstat1.st_uid);
+        gr = getgrgid(fstat1.st_gid);
+        printf("| %s %s |", pw->pw_name, gr->gr_name);
+}
+
 int main(int argc, char *argv[]) {
 DIR *adir;
 struct dirent *dirent1;
 int atype;
 char args[128] = ".";
-struct stat fstat1;
-struct passwd *pw;
-struct group  *gr;
 
 if (argv[1] != NULL && strlen(argv[1]) <= 128)
         strncpy(args, argv[1], sizeof(args) - 1);
@@ -31,28 +40,21 @@ for (atype = 0; atype < 3; atype++) {
                         printf("DIR: ");
                         if ((dirent1->d_name[0] == '.' && dirent1->d_name[1] == '\0') ||
                         (dirent1->d_name[0] == '.' && dirent1->d_name[1] == '.' && dirent1->d_name[2] == '\0'))
-                                printf("<. / ..>");
+                         printf("<. / ..>");
                         else
-                                printf("[hidden dir]");
-                        stat(args, &fstat1);
-                        pw = getpwuid(fstat1.st_uid);
-                        gr = getgrgid(fstat1.st_gid);
-                        printf("| %s %s |", pw->pw_name, gr->gr_name);
+                         printf("[hidden dir]");
+                        print_fusergroupname(args);
                         printf("|inode=%ld | %s\n", dirent1->d_ino, dirent1->d_name);
                 } else if (atype == 1 && dirent1->d_type == DT_REG) {
                         printf("FILE: ");
                         if (dirent1->d_name[0] == '.')
-                                printf("[hidden file]");
-                        pw = getpwuid(fstat1.st_uid);
-                        gr = getgrgid(fstat1.st_gid);
-                        printf("| %s %s |", pw->pw_name, gr->gr_name);
+                         printf("[hidden file]");
+                        print_fusergroupname(args);
                         printf("|inode=%ld | %s\n", dirent1->d_ino, dirent1->d_name);
                 } else if (atype == 2 && (dirent1->d_type != DT_DIR && dirent1->d_type != DT_REG)){
                         if (dirent1->d_type == DT_LNK)
-                                printf("[symlink]");
-                        pw = getpwuid(fstat1.st_uid);
-                        gr = getgrgid(fstat1.st_gid);
-                        printf("| %s %s |", pw->pw_name, gr->gr_name);
+                         printf("[symlink]");
+                        print_fusergroupname(args);
                         printf("|inode=%ld | type=%d | %s\n", dirent1->d_ino, dirent1->d_type, dirent1->d_name);
                 }
         }
