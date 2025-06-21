@@ -1,39 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <time.h>
 
-int mangle_check() {
-        int a = rand()%3;
-
-        if (a == 0) {
-                printf("%%");
-        } else if (a == 1) {
-                printf("-");
-        } else {
-                printf("+");
-        }
-
-}
+#define WIDTH   50
+#define HEIGHT  50
 
 int main() {
-int i;
-clock_t start = clock();
+char arr[] = "%++--";
+time_t start_time;
+int i, j;
+char c;
 
         srand(time(NULL));
+        start_time = time(NULL);
 
-        while (((double)(clock() - start) / CLOCKS_PER_SEC) < 5.0)
-                {
-                if ((i++ % 25) == 0) {
-                        printf("\n");
+        while (difftime(time(NULL), start_time) < 5) {
+                system("clear");
+                for (i = 0; i < HEIGHT; i++) {
+                    for (j = 0; j < WIDTH; j++) {
+                        c = arr[rand() % 5];
+                        printf("\033[1;37m%c\033[0m", c);
+                    }
+                 printf("\n");
                 }
-
-                for (int a = 0; a < 3; a++) {
-                        mangle_check();
-                }
-
-                if(i > 5000) {
-                        printf("\033[H");
-                        i = 0;
-                }
+                usleep(100000); /* 100000(0.1 sec) */
         }
+
+    return 0;
 }
