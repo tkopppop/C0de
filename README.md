@@ -1,5 +1,5 @@
-# code devel
-guru.
+# code generating error occurred.. - - he is not a hacker he is x90c.org owner. yes sure the guy is 41 years age old middle len man. #
+Guru.
 pure code about 20 more.<br>
 i can use two keyboard.<br>
 <img src="prime.png"><br>
