@@ -12,12 +12,14 @@ Makefile.<br>
 <br>
 안녕하세요. 저는 한국에서 태어난 정경주라는 사람입니다.
 <br>
-<p>어린 나이에 일본으로 건너가서 일본 연예인 데뷔 기간인 여자 연예인 한 분과 다른 분들과 합숙을 좀 했고, 10대의 나이에도 당당히 일본어로 말하면서 중국과 일본을 몇 차례 출장을 가면서 데뷔를 했습니다. 일본 여자 연예인 Toda Erika(toda씨)가 지방출신이셔서 해당 지방 나다구 효고 텔레비전 프로그램 'E*' 점심 토크쇼에 출현할 때 제게 전화를 걸어와서 제가 사장님이라고 하던 중이어서 소속사에서 저만 데뷔하기로 했어요 라고 했는데, 그게 2회 분에 거쳐서 그 일본 여자분이 출현하셔서 한국에 정경주라는 한국 프로듀서분이 계신데 연예인 하고 싶다고 공동 데뷔로 하라 그랬습니다~라고 하셔서 공동기획이 시도되어 제 이름과 신분이 대중들에게 노출되어 일본 연예인으로 공동 데뷔 했습니다. 요즘 한국의 한 밴드 보컬 출신 한 가수분에게 보컬 기본을 사사를 받은 뒤로 실용음악학원에도 잠시 들리며 제 얘기를 나누곤 했는데요. 마무리.</p><br><br><br>
-<p>Hello. My name is KyongJu Jung, and I was born in South Korea.<br>
+<p>어린 나이에 일본으로 건너가서 일본 연예인 데뷔 기간인 여자 연예인 한 분과 다른 분들과 합숙을 좀 했고, 10대의 나이에도 당당히 일본어로 말하면서 중국과 일본을 몇 차례 출장을 가면서 데뷔를 했습니다. 일본 여자 연예인 Toda Erika(toda씨)가 지방출신이셔서 해당 지방 나다구 효고 텔레비전 프로그램 'E*' 점심 토크쇼에 출현할 때 제게 전화를 걸어와서 제가 사장님이라고 하던 중이어서 소속사에서 저만 데뷔하기로 했어요 라고 했는데, 그게 2회 분에 거쳐서 그 일본 여자분이 출현하셔서 한국에 정경주라는 한국 프로듀서분이 계신데 연예인 하고 싶다고 공동 데뷔로 하라 그랬습니다~라고 하셔서 공동기획이 시도되어 제 이름과 신분이 대중들에게 노출되어 일본 연예인으로 공동 데뷔 했습니다. 요즘 한국의 한 밴드 보컬 출신 한 가수분에게 보컬 기본을 사사를 받은 뒤로 실용음악학원에도 잠시 들리며 제 얘기를 나누곤 했는데요. 마무리.</p><br>
+<p>Hello. My name is KyongJu Jung, and I was born in South Korea.
 At a young age, I moved to Japan and stayed in shared housing with a few others, including a female Japanese celebrity who was preparing to debut. Even as a teenager, I confidently spoke Japanese and traveled several times between China and Japan for work, eventually making my own debut.
 Since the Japanese celebrity, Toda Erika, was from a rural area, she appeared on a local lunchtime talk show on a Hyogo-based TV program called "E*." During that time, she called me—while I was being referred to as “President” at the agency—and said that only I would be debuting under the agency. On that show, which aired over two episodes, she mentioned, “There’s a Korean producer named KyongJu Jung who lives in Korea and wants me to debut as a celebrity,” which led to a joint debut being proposed. As a result, my name and identity were made public, and I debuted jointly as a Japanese celebrity.
 More recently, I received vocal training from a singer who was formerly the vocalist of a Korean band. I also attended a contemporary music academy for a short time, where I had the opportunity to share my story.
-The end.</p><br><br><br>
+The end.</p>
+
+<br><br>
 <br>
 1: hacker "tf8" made format string bug practical place holder. first place theory 1989. and then 1994~research starting and end 1999-2001. Full-disclosure mailinglist, hack.co.za activating!!! and "lamagra argamal" for spreading my format string bug(fsb) technique<br>
 2: hacker "x90c" made korean underground hacker activities and USA underground free hacker magazine phrack's (7 - TCLH) team leader&editor<br>
