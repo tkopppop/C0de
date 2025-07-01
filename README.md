@@ -1,3 +1,4 @@
+<img src="kripertotor.png"><br>
 # code generating error occurred.. - - he is not a hacker he is x90c.org owner. yes sure the guy is 41 years age old middle len man. #
 Guru.
 pure code about 20 more.<br>
