@@ -4,7 +4,7 @@ local color map firefox 1day exploit: https://seclists.org/fulldisclosure/2013/A
 https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ (mot
 </pre>
 <img src="kripertotor.png"><br>
-# ER
+# TL:DR;
 Guru.
 pure code about 20 more.<br>
 i can use two keyboard.<br>
