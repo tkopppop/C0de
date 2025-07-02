@@ -9,7 +9,7 @@ can you do?<br>
 i can code<br>
 min<br>
 GW<br>
-Makefile.<br>
+Makefile.
 <br><br><br>
 1: hacker "tf8" made format string bug practical place holder. first place theory 1989. and then 1994~research starting and end 1999-2001. Full-disclosure mailinglist, hack.co.za activating!!! and "lamagra argamal" for spreading my format string bug(fsb) technique<br>
 2: hacker "x90c" made korean underground hacker activities and USA underground free hacker magazine phrack's (7 - TCLH) team leader&editor<br>
