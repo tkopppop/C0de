@@ -1,7 +1,7 @@
 <pre>
-x90c WOFF Firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/187
-local color map firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/188
-https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ (mot
+x90c WOFF Firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/187
+local color map firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/188
+https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ zeroday exploit(mot
 </pre>
 <img src="kripertotor.png"><br>
 # TL:DR;
