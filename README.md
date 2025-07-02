@@ -1,3 +1,8 @@
+<pre>
+x90c WOFF Firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/187
+local color map firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/188
+https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ (mot
+</pre>
 <img src="kripertotor.png"><br>
 # code generating error occurred.. - - he is not a hacker he is x90c.org owner. yes sure the guy is 41 years age old middle len man. #
 Guru.
