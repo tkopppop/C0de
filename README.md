@@ -25,5 +25,7 @@ his name is cho-kyu-man. korean hit song singer one. i debut same name than my r
 i broadcasted three ways in the debut season celebrity producers and singer (creator style)<br>
 then!<br><br><br><br><br>
 # TE:LE;
-i know toda erika sir doesn't make more artistic job with me. and i will never board to him. then the actress((wo)man) complex thinking is free in my world and his world.
-we never board to us future. and good bye then! been the good memories.
+I lost your phone number. you never teaching me vocalist course at your style. you told me 'you also know like me' what? vocalist course trainning ways.
+trainning hard. and go go go! singersongwriting producers.
+ok.
+
