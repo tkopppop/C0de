@@ -1,6 +1,6 @@
 <pre>
 x90c WOFF Firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/187
-KjYjunglocal color map firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/188
+x90c local color map firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/188
 https://www.exploit-db.com/exploits/37293
 https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ zeroday exploit
 (mot: https://www.exploit-db.com/exploits/40871 mine no rebel's)
