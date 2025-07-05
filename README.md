@@ -25,7 +25,4 @@ his name is cho-kyu-man. korean hit song singer one. i debut same name than my r
 i broadcasted three ways in the debut season celebrity producers and singer (creator style)<br>
 then!<br><br><br><br><br>
 # TE:LE;
-I lost your phone number. you never teaching me vocalist course at your style. you told me 'you also know like me' what? vocalist course trainning ways.
-trainning hard. and go go go! singersongwriting producers.
-ok.
-
+I lost your phone number.
