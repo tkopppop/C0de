@@ -16,7 +16,7 @@ https://www.exploit-db.com/exploits/31347
 on full-disclosure mailinglist<br>
 => i've used majority four akas(handle). among them, THE MAIN is "**x90c**".<br><br><br>
 # TL:ERA;
-1: I'm debut celebrity in south korea and japan and .<br>
+1: I'm debut celebrity in south korea (1999) and japan(1999) and .<br>
 2: korean broadcast television one show case my voice recording(wav) song. <br>
 one its balad song written in korean language and other same naming making singer singing the song follow my play audio voice and sounds bits out followed.<br>
 his name is jo-kyu-man. korean hit song singer one. i debut same name than my real name debut for keyword usuage.<br>
@@ -24,3 +24,7 @@ his name is jo-kyu-man. korean hit song singer one. i debut same name than my re
 4: i shows chinese hacker magazine now lost.<br>
 i broadcasted three ways in the debut season celebrity producers and singer (creator style)<br>
 then!<br><br><br><br><br>
+
+# TE:LE;
+i know toda erika sir doesn't make more artistic job with me. and i will never board to him. then the actress((wo)man) complex thinking is free in my world and his world.
+we never board to us future. and good bye then! been the good memories.
