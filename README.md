@@ -19,7 +19,7 @@ on full-disclosure mailinglist<br>
 1: I'm debut celebrity in south korea (1999) and japan(1999) and .<br>
 2: korean broadcast television one show case my voice recording(wav) song. <br>
 one its balad song written in korean language and other same naming making singer singing the song follow my play audio voice and sounds bits out followed.<br>
-his name is jo-kyu-man. korean hit song singer one. i debut same name than my real name debut for keyword usage.<br>
+his name is cho-kyu-man. korean hit song singer one. i debut same name than my real name debut for keyword usage.<br>
 3: japan broadcast television one show my case my messages to telephone by his entertaining manager toda erika japanese actress and singer prod.<br>
 4: i shows chinese hacker magazine now lost.<br>
 i broadcasted three ways in the debut season celebrity producers and singer (creator style)<br>
