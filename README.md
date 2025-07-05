@@ -26,3 +26,4 @@ i broadcasted three ways in the debut season celebrity producers and singer (cre
 then!<br><br><br><br><br>
 # TE:LE;
 I lost your phone number.
+It's too old school. and nerd hacker. i started producing it myself 'hacker to talent singer(celebrity)'.
