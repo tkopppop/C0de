@@ -16,7 +16,7 @@ https://www.exploit-db.com/exploits/31347
 on full-disclosure mailinglist<br>
 => i've used majority four akas(handle). among them, THE MAIN is "**x90c**".<br><br><br>
 # TL:ERA;
-<img src="singer.png" width=50 height=50><br>
+<img src="singer.png"><br>
 1: I'm debut celebrity in south korea (1999) and japan(1999) and .<br>
 2: korean broadcast television one show case my voice recording(wav) song. <br>
 one its balad song written in korean language and other same naming making singer singing the song follow my play audio voice and sounds bits out followed.<br>
