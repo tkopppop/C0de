@@ -24,7 +24,6 @@ his name is jo-kyu-man. korean hit song singer one. i debut same name than my re
 4: i shows chinese hacker magazine now lost.<br>
 i broadcasted three ways in the debut season celebrity producers and singer (creator style)<br>
 then!<br><br><br><br><br>
-https://tf8h.dothome.co.kr/
 # TE:LE;
 i know toda erika sir doesn't make more artistic job with me. and i will never board to him. then the actress((wo)man) complex thinking is free in my world and his world.
 we never board to us future. and good bye then! been the good memories.
