@@ -33,3 +33,41 @@ I debuted through three creative formatsâ€”TV broadcast, music, and print mediaâ
 # TE:LE;
 I lost your phone number.
 It's too old school. and nerd hacker. i started producing it myself 'hacker to talent singer(celebrity)'.
+
+# gmail
+x90cx90c1@gmail.com (secretly received yours mail box inbox)
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQSuBGhnlhYRDADKJECQsY6vmKIVIkACZc3wdFsByi0TPZwK1u+d1fZQsJi9l9Rx
+U5vFPjJxn7UISG4Nu3XoFmky5t1P4H+Y0D+YWIiS8Q/UzDf7ltevgCoQAQlay3bk
+Z1IZxxr2+CrOME6oTyyBHF4RPzPgVxtEurFsNQh/l8uaqDPH68M90Z0QBnce9Exn
+HGTTdRPoBGngD1tJceR79eKoNUo6s3rsas+3pMZTuHuxawgqo4bLqWbf2R7avnlm
+8DavEOmH8NVig6VlNzzJu+SlanUJtMylz5zYu2/hO4c9PW6TdfDHuoreIuUvcVKK
+fbJ8kVtBY7s1UgOGQzJ+Zg92p8V2649ikmJSgeEKfttMSwCxxxmy773Hezlb1B7Y
+OvGNXX52Yxqs1pv9tWmxzyq+zjjYYZ5mrGBPtKmgOPGTGE4D0SCEFk+CnE7gCs+h
+aKqq5IYMfvwzLkr/jP/dknmQPm2YicB5BfoeV62V5lWMSVj3FL4MXCCA6opkGTH7
+ejANaawwQNZfYN8BANRnf8UzpUmbJ6WLdz2OUcODu3dT8CDKH5vLfYqR7vwpC/95
+Jwzm8ZrE4lTLHinTc4NwayLBPWC1UColBkg69Fl6UEIIZBYNlu9LPJhVUtE0Wbhx
+jN4Ba286SQz3cbz+tLaMcWnOHk51AUG1bas2HymCClG6NQOc+IEGutZikM0FTxiJ
+eGDZFLx4MUf6s1GV08vZnimxj71TGGKKuCZLTz2Mb2fTNklWQgEKbseeM40UOMhQ
+K1NQ0QYTMXoq7d0epRGFVpW2WNjHpa+5ey0jzHR+diHfDfsVAT1WVzzl88UeHyzm
+VuaqqaRvrku9dxSgyb4mQtaV5YwbMoUHZyIIhtn24k8plJaElVKPpQtoDCKnblhB
+So0hO9ymbnhXEI/At3w0S6rYOaegP9ERcrLpcXt32oOZqGTQ/A92eX+7WatZLiPb
+NIOxdTTp5bYihEl1l0TBysZ4BxnWRSPbJ+gLRvrfeX0BVHF+U//eL/AupsNOhPMA
+G2+qhb5VPAVv38vDMU/Fvj0vd37ha2YyidklKcCDUE42Z99rnWHJq5uOZa/p6ncL
+/3Aab7FfUOrQDyaAH63A/37DMWxsiigdIYMzoxgXoyfd0O5Jb97BZkyImdeaEpGy
+yX7GNRH1X0alYMt7uPMAlpQ7lXxIMtIq8RmCjOQkVp4MHTyeRMBNSdcimYtegjhm
+atQ12R6UzYUGDVez2gXJTFLKFJlXCXM2oAydLjY9QzkI+ufY8GOu+0DtQpKS905S
+6Q0ZlCesCKkJipgbu8GrNXwYxBGRaDNEuKEHFM49Ly4bgxC4t88pUr9RrEJlpsGz
+EYbT/bHt0Y+yZxXtyT2M0tPREY6QAPSoYIaqS12KG9+KAIycHDtqEYP5/taGn2+m
+4zCq/itF/hoNoaYcFgiwH9SU8SR2yHYHd2bFMFS1K9pOKW+x7r7ETQpk68jAO1DX
+ig+4yI2XQLSKBGDS94iuEGWoI6WLeUVcmxvjro4AU+3Y/5uK0UrFULdhd7onLgi0
+csfhQm5NG19NeNXSrdZ5vsv2PT8nRcpYzyRtkFmGFwBPZ0Yz+JspmvdUxNR92gyC
+frQ2S3lvbmdKdUp1bmcgKExpbnV4S2VybmVsSEFDS0VSMSkgPHg5MGN4OTBjMUBn
+bWFpbC5jb20+iJYEExEIAD4WIQTVViXr3wYljHzk/P+7ai2YamzEaAUCaGeWFgIb
+AwUJEswDAAULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRC7ai2YamzEaOxKAP9j
+q/yf+iLO+IAkySce7bAEHNTHEzocLGADD0Q1Xs/GzwEAtJPTOEKUUZ1sqvWWJKIu
+M8iPnDhZnqM2lt91ItHWk4Q=
+=64UM
+-----END PGP PUBLIC KEY BLOCK-----
