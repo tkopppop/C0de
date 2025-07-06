@@ -20,7 +20,7 @@ on full-disclosure mailinglist<br>
 <img src="singer.png" width=300 height=300><br>
 1: debut year: I made my debut as a celebrity in both South Korea and Japan in 1999.<br>
 2: Korean TV Appearance:<br>
-One Korean TV show featured a recording of my voice (a .wav file) where I sang a Korean ballad.<br>
+One Korean TV show featured a recording of my voice (a .wav file, title: "i'll give you all") where I sang a Korean ballad i made<br>
 Later, a well-known Korean singer, Cho Kyu-man, performed the same song using my voice as the base for his version.<br>
 He sang the song following the sounds and tones from my audio recording.<br>
 I used the same name as my real name for the debut, which helped with search keywords.<br>
