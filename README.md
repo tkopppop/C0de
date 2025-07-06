@@ -34,9 +34,10 @@ I debuted through three creative formatsâ€”TV broadcast, music, and print mediaâ
 I lost your phone number.
 It's too old school. and nerd hacker. i started producing it myself 'hacker to talent singer(celebrity)'.
 
-# gmail
-x90cx90c1@gmail.com (secretly received yours mail box inbox)
+# gmail<br>
+x90cx90c1@gmail.com (secretly received yours mail box inbox)<br>
 
+<pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQSuBGhnlhYRDADKJECQsY6vmKIVIkACZc3wdFsByi0TPZwK1u+d1fZQsJi9l9Rx
@@ -71,3 +72,4 @@ q/yf+iLO+IAkySce7bAEHNTHEzocLGADD0Q1Xs/GzwEAtJPTOEKUUZ1sqvWWJKIu
 M8iPnDhZnqM2lt91ItHWk4Q=
 =64UM
 -----END PGP PUBLIC KEY BLOCK-----
+</pre>
