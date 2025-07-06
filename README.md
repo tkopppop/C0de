@@ -25,9 +25,9 @@ He sang the song following the sounds and tones from my audio recording.<br>
 I used the same name as my real name for the debut, which helped with search keywords.<br>
 3: Japanese TV Appearance:<br>
 In Japan, my phone messages were featured on a show through Toda Erika, a Japanese actress and singer who helped introduce me via her entertainment manager.<br>
-- Chinese Media Feature:<br>
+4: Chinese Media Feature:<br>
 My debut was also shown in a Chinese hacker-themed magazine, although that publication is now lost.<br>
-4: Debut Style:<br>
+5: Debut Style:<br>
 I debuted through three creative formats—TV broadcast, music, and print media—like a producer and a creator-style artist.<br>
 <br><br><br><br><br>
 # TE:LE;
