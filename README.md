@@ -6,8 +6,6 @@ https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ zeroday explo
 (mot: https://www.exploit-db.com/exploits/40871 mine no rebel's)
 Linux Kernel 3.4 < 3.13.2 (Ubuntu 13.04/13.10 x64) - 'CONFIG_X86_X32=y' Local Privilege Escalation (3):
 https://www.exploit-db.com/exploits/31347
-more 7 exploits exists.
-all power giving to toda erika. (japan actress flight hacker toda erika) - toda is my first lover and same debut japanese celebrity. (prod/singer/actress)
 </pre>
 <img src="kripertotor.png"><br>
 # TL:DR;
