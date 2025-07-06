@@ -17,18 +17,18 @@ on full-disclosure mailinglist<br>
 => i've used majority four akas(handle). among them, THE MAIN is "**x90c**".<br><br><br>
 # TL:ERA;
 <img src="singer.png" width=300 height=300><br>
-1: debut year: I made my debut as a celebrity in both South Korea and Japan in 1999.
-2: Korean TV Appearance:
-One Korean TV show featured a recording of my voice (a .wav file) where I sang a Korean ballad.
-Later, a well-known Korean singer, Cho Kyu-man, performed the same song using my voice as the base for his version.
-He sang the song following the sounds and tones from my audio recording.
-I used the same name as my real name for the debut, which helped with search keywords.
-3: Japanese TV Appearance:
-In Japan, my phone messages were featured on a show through Toda Erika, a Japanese actress and singer who helped introduce me via her entertainment manager.
-- Chinese Media Feature:
-My debut was also shown in a Chinese hacker-themed magazine, although that publication is now lost.
-4: Debut Style:
-I debuted through three creative formats—TV broadcast, music, and print media—like a producer and a creator-style artist.
+1: debut year: I made my debut as a celebrity in both South Korea and Japan in 1999.<br>
+2: Korean TV Appearance:<br>
+One Korean TV show featured a recording of my voice (a .wav file) where I sang a Korean ballad.<br>
+Later, a well-known Korean singer, Cho Kyu-man, performed the same song using my voice as the base for his version.<br>
+He sang the song following the sounds and tones from my audio recording.<br>
+I used the same name as my real name for the debut, which helped with search keywords.<br>
+3: Japanese TV Appearance:<br>
+In Japan, my phone messages were featured on a show through Toda Erika, a Japanese actress and singer who helped introduce me via her entertainment manager.<br>
+- Chinese Media Feature:<br>
+My debut was also shown in a Chinese hacker-themed magazine, although that publication is now lost.<br>
+4: Debut Style:<br>
+I debuted through three creative formats—TV broadcast, music, and print media—like a producer and a creator-style artist.<br>
 <br><br><br><br><br>
 # TE:LE;
 I lost your phone number.
