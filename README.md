@@ -1,11 +1,11 @@
 <pre>
 x90c WOFF Firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/187
-local color map firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/188
-https://www.exploit-db.com/exploits/37293
-https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ zeroday exploit
-(mot: https://www.exploit-db.com/exploits/40871 my written exploit oneshot code. it's not rebel's i upload it by his rebel id.(a.k.a) he and me elite hacker)
-Linux Kernel 3.4 < 3.13.2 (Ubuntu 13.04/13.10 x64) - 'CONFIG_X86_X32=y' Local Privilege Escalation (3):
-https://www.exploit-db.com/exploits/31347
+x90c local color map firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/188
+x90c https://www.exploit-db.com/exploits/37293
+rebel->x90c https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ zeroday exploit
+(x90c: https://www.exploit-db.com/exploits/40871 my written exploit oneshot code. it's not rebel's i upload it by his rebel id.(a.k.a) he and me elite hacker)
+x90c Linux Kernel 3.4 < 3.13.2 (Ubuntu 13.04/13.10 x64) - 'CONFIG_X86_X32=y' Local Privilege Escalation (3):
+       https://www.exploit-db.com/exploits/31347
 </pre>
 <img src="kripertotor.png"><br>
 # TL:DR;
