@@ -1,4 +1,7 @@
 <pre>
+Creator KyongJoo(Ju), Jung:
+
+       
 x90c WOFF Firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/187
 x90c local color map firefox private exploit: https://seclists.org/fulldisclosure/2013/Aug/188
 x90c https://www.exploit-db.com/exploits/37293
