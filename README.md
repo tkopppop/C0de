@@ -21,3 +21,7 @@ on full-disclosure mailinglist<br>
 # TL:ERA;
 <img src="singer.png" width=300 height=300><br>
 
+# ANOTHER ID.A.K.AS
+LinuxGod<br>
+LinuxG0d<br>
+
