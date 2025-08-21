@@ -20,8 +20,3 @@ on full-disclosure mailinglist<br>
 => i've used majority four a.k.as(handle). among them, THE MAIN is "**x90c**".<br><br><br>
 # TL:ERA;
 <img src="singer.png" width=300 height=300><br>
-
-# ANOTHER ID.A.K.AS
-LinuxGod<br>
-LinuxG0d<br>
-
