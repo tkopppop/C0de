@@ -1,6 +1,8 @@
 <pre>
 해커 KyongJoo(Ju), Jung:
 
+x90c WOFF Firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/187
+x90c local color map firefox: 1day exploit https://seclists.org/fulldisclosure/2013/Aug/188       
 x90c https://www.exploit-db.com/exploits/37293
 rebel->x90c https://materials.rangeforce.com/tutorial/2020/07/12/Chocobo-Root/ zeroday exploit
 (x90c: https://www.exploit-db.com/exploits/40871 my written exploit oneshot code. it's not rebel's i upload it by his rebel id.(a.k.a) he and me elite hacker)
