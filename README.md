@@ -1,5 +1,5 @@
 <pre>
-kudos해커 / KyongJoo(Ju), Jung:
+Kudos Hacker KyongJoo(Ju), Jung:
 
 x90c WOFF Firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/187
 x90c local color map firefox: 1day exploit https://seclists.org/fulldisclosure/2013/Aug/188       
@@ -20,10 +20,9 @@ on full-disclosure mailinglist<br>
 # TL:ERA;
 <img src="singer.png" width=300 height=300><br>
 
-## 연예계와의 인연
-- **특별한 스토리**: 어린 시절(9살) KBS 방송 출연을 시작으로, 일본 연예계와 깊은 인연을 맺었습니다. 한 1988년생 일본 여성 연예인의 데뷔를 지원하며 그녀와 “공동 데뷔”를 이룬 특별한 경험을 했어요. 일본 지방 TV 토크쇼에서 함께 인정받은 순간은 잊지 못할 추억입니다.
-- **방송 경험**: KBS와 일본 오후 토크쇼를 포함해 3회 방송 출연
+## Interconnected to japan television show
+- **special guests in television shows**: i showed in tv shows in japan and korea television broadcast channels some.
+  i know two more korean, japanese talent(celebrity).
 
-## 지금의 나
-- **취미**: 시큐어 코드, 리얼월드 취약성(버깅코드) 분석해보기
-
+## Skills
+- Secure Code writing, VR(vulnerability research)
