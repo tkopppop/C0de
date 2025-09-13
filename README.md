@@ -27,5 +27,3 @@ on full-disclosure mailinglist<br>
 ## 지금의 나
 - **취미**: 시큐어 코드, 리얼월드 취약성(버깅코드) 분석해보기
 
-## 기조
-cheers to hackers
