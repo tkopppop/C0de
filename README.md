@@ -1,5 +1,5 @@
 <pre>
-Kudos Hacker KyongJoo(Ju), Jung:
+Whitehat Hacker KyongJoo(Ju), Jung:
 
 x90c WOFF Firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/187
 x90c local color map firefox: 1day exploit https://seclists.org/fulldisclosure/2013/Aug/188       
@@ -25,4 +25,4 @@ on full-disclosure mailinglist<br>
   i know two more korean, japanese talent(celebrity).
 
 ## Skills
-- Secure Code writing, VR(vulnerability research)
+- Secure Code Writing, VR(vulnerability research)
