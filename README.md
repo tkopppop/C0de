@@ -1,5 +1,5 @@
 <pre>
-Whitehat Hacker KyongJoo(Ju), Jung:
+Kudos Hacker KyongJoo(Ju), Jung:
 
 x90c WOFF Firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/187
 x90c local color map firefox: 1day exploit https://seclists.org/fulldisclosure/2013/Aug/188       
