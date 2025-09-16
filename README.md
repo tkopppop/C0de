@@ -1,5 +1,5 @@
 <pre>
-Kudos Hacker KyongJoo(Ju), Jung:
+Kudos to Hacker worlds, KyongJoo(Ju), Jung:
 
 x90c WOFF Firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/187
 x90c local color map firefox: 1day exploit https://seclists.org/fulldisclosure/2013/Aug/188       
@@ -22,7 +22,7 @@ on full-disclosure mailinglist<br>
 
 ## Interconnected to japan television show
 - **special guests in television shows**: i showed in tv shows in japan and korea television broadcast channels some.
-  i know two more korean, japanese talent(celebrity).
+  i know two more korean, japanese celebrities.
 
 ## Skills
 - Secure Code Writing, VR(vulnerability research)
