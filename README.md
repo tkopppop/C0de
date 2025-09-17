@@ -13,7 +13,7 @@ x90c Linux Kernel 3.4 < 3.13.2 (Ubuntu 13.04/13.10 x64) - 'CONFIG_X86_X32=y' Loc
 # TL:DR;
 1: hacker "tf8" made format string bug practical place holder. first place theory 1989. and then 1994~research starting and end 1999-2001. Full-disclosure mailinglist, hack.co.za activating!!!<br>
 2: "lamagra argamal" for spreading my format string bug(fsb) technique<br>
-3: hacker "x90c" made korean underground hacker activities and USA underground free hacker magazine phrack's (7 - TCLH (real, goodbye)) team leader&editorl<br>
+3: hacker "x90c" made korean underground hacker activities and USA underground free hacker e-zine phrack's (7 - TCLH (real, goodbye)) team leader&editorl<br>
 4: hacker "phantasmal phantasmagoria" heap memory related two articles that "exploiting the wilderness" and "the malloc maleficarum"  released
 on full-disclosure mailinglist<br>
 => i've used majority four a.k.as(handle). among them, THE MAIN is "**x90c**".<br><br><br>
