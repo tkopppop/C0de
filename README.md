@@ -1,3 +1,5 @@
+global hacker x90c official archive site!
+
 <pre>
 Kudos to Hacker worlds, KyongJoo(Ju), Jung:
 
