@@ -1,4 +1,4 @@
-global hacker x90c official portpolio site!
+<b>global hacker x90c official portpolio site!</b>
 
 <pre>
 Kudos to Hacker worlds, KyongJoo(Ju), Jung:
