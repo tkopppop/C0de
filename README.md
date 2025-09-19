@@ -1,4 +1,4 @@
-<b>hacker x90c official portpolio site!</b>
+<b>hacker x90c official Portfolio & Archive site!</b>
 
 <pre>
 Kudos to Hacker worlds, KyongJoo(Ju), Jung:
