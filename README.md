@@ -34,4 +34,8 @@ on full-disclosure mailinglist<br>
   i know two more korean, japanese celebrities.
 
 ## Skills
-- Secure Code Writing, VR(vulnerability research)
+- OS kernel and utility design, VR(vulnerability research), Secure Code Writing
+- hacking technique propergation research
+- AI related theory understand
+  
+
