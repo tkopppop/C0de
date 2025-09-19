@@ -1,4 +1,4 @@
-<b>hacker x90c Official Portfolio site!</b>
+<b>hacker x90c Official Portfolio</b>
 
 <pre>
 Kudos to Hacker worlds, KyongJoo(Ju), Jung:
