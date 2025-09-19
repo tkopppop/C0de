@@ -1,6 +1,4 @@
 <b>hacker x90c Official Portfolio</b><br>
-Entertainment industry alum turned global cybersecurity expert. Renowned in hacker communities worldwide and guest-starred on multiple TV programs across Korea and Japan.<br>
-
 <pre>
 Kudos to Hacker worlds, KyongJoo(Ju), Jung:
 
