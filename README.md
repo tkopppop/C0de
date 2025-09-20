@@ -27,7 +27,7 @@ x90c Linux Kernel 3.4 < 3.13.2 (Ubuntu 13.04/13.10 x64) - 'CONFIG_X86_X32=y' Loc
 4: hacker "phantasmal phantasmagoria" heap memory related two articles that "<a href="https://seclists.org/vuln-dev/2004/Feb/25">exploiting the wilderness</a>" and "<a href="https://seclists.org/bugtraq/2005/Oct/118">the malloc maleficarum</a>"  released
 on full-disclosure mailinglist<br>
 => i've used majority four a.k.as(handle). among them, THE MAIN a.k.a is "**x90c**".<br><br><br>
-# TL:ERA;
+# TL;ERA;
 <img src="singer.png" width=300 height=300><br>
 
 ## Interconnected to japan television show
