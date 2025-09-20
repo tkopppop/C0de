@@ -2,7 +2,7 @@
 <pre>
   history
   | a.k.a x90c starting in korea at 2001 | speak as the underground hacker celebrity in korean major hall title of ppt'kernel audit' | iSEC leader research kid |
-  | phrack submiter to editor(managing philes 3 more times) | security soft(ware) engineer* |
+  | phrack submiter to editor(managing philes 3 more times) | software security engineer(SSE)* |
   
 Kudos to Hacker worlds, KyongJoo(Ju), Jung:
 
