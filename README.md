@@ -19,7 +19,7 @@ x90c Linux Kernel 3.4 < 3.13.2 (Ubuntu 13.04/13.10 x64) - 'CONFIG_X86_X32=y' Loc
 1: hacker "tf8" made format string bug practical place holder. first place theory 1989. and then 1994~research starting and end 1999-2001. Full-disclosure mailinglist, hack.co.za activating!!!<br>
    -<a href="https://vfocus.net/hack/exploits/os/linux/openlinux/2.4/wuftpd2600.c">wuftpd2600.c</a> / <a href="https://vfocus.net/hack/exploits/os/linux/openlinux/2.4/bobek.c">bobek.c</a><br>
    
-2: "lamagra argamal" for spreading my format string bug(fsb) technique<br>
+2: hacker "lamagra argamal" for spreading my format string bug(fsb) technique<br>
    -<a href="http://www.ouah.org/lamagra-bof.txt">buffer overflow basic explained</a><br>
    -<a href="http://www.ouah.org/lamheap.txt">heap overflow by example</a><br>
    -<a href="http://www.ouah.org/format_bugs.txt">Format Bugs: What are they, Where did they come from,...... ...How to exploit them</a><br>
