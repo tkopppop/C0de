@@ -32,7 +32,6 @@ on full-disclosure mailinglist<br>
 
 => i've used majority four a.k.as(handle). among them, THE MAIN a.k.a is "**x90c**".<br><br><br>
 # TL;ERA
-<img src="singer.png" width=300 height=300><br>
 
 ## Interconnected to japan television show
 - **special guests in television shows**: i showed in tv shows in japan and korea television broadcast channels some.
