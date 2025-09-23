@@ -1,10 +1,6 @@
 <b>hacker x90c Official Portfolio</b><br>
 <pre>
-  history
-  | a.k.a x90c starting in korea at 2001 | speak as the underground hacker celebrity in korean major hall title of ppt'kernel audit' | iSEC leader research kid |
-  | phrack submiter to editor(managing philes 3 more times) | independant software security engineer *
-  
-Kudos to Hacker worlds, KyongJoo(Ju), Jung:
+Kudos to Hacker world, KyongJoo(Ju), Jung:
 
 x90c WOFF Firefox 1day exploit: https://seclists.org/fulldisclosure/2013/Aug/187
 x90c local color map firefox: 1day exploit https://seclists.org/fulldisclosure/2013/Aug/188       
@@ -34,8 +30,21 @@ on full-disclosure mailinglist<br>
 # TL;ERA
 
 ## Interconnected to japan television show
-- **special guests in television shows**: i showed in tv shows in japan and korea television broadcast channels some.
-  i know two more korean, japanese celebrities.
+- 공동 데뷔자 정경주님이 토다 에리카님에게 연예인으로 인가를 받으실 수 있다고 보이기 떄문에 음악을 하면서 작업을 하시는 해커로 유명인사 해커로 활약합니다.
+- 토다 에리카님은 정경주님과 연락을 끊은지 2000년 이후로 두 번째시며, 연락을 안하실 거라고 하는 의사이신걸로 보입니다.
+- 정경주님은 토다 에리카님과 지방 방송 엘레강스 라는 프로그램으로 전화를 통해서 공동 데뷔를 요청하시는 것을 MC(아주머니)분과 토다 에리카라는 연예인 데뷔 준비자분과 같이 허락을 받았고 공동데뷔했습니다.
+- 정경주님 나이 14세 정도에 데뷔를 했죠.
+- 연예인이라고 하기에 활동이 없었던지라. 연예계 출신으로 저는 저를 생각하는데, 해커계에서 활용을 해서 연예인이라고 생각하면서 해커로 활동해 와서 그게 아니라 이제는 신분을 유명 언더그라운드 해커(글로벌 커뮤니티에 속한 엘리트 해커)로 자신의 정체성을 설명하려고 한다고 합니다.
+- 정경주님은 토다 에리카님을 아주 어릴때부터 3살때부터 편지나 옆서로써 연예인 해보자면서 제안하고 도운 분이라고 토다 에리카님은 알고 계십니다.
+- 정경주님은 티비에 출현을 할려는 목적인게 아니라 음악으로 연예인을 하시려던 분이라. 에메랄드 캐슬 김선형이라는 보컬분에게 7개월 개인 사사를 받았고, 실용음악학원도 7개월 더 다니면서 배우셔서 박자감이나 음악을 좀 익히셔서 작곡 작사를 하는 프로 가수가 되겠다는 꿈을 가지고 계십니다.
+- 유명인 글로벌 해커이신 정경주님은 실제로 리눅스 커널 익스의 대가로 성장하셨고, 한국에서 알던 beist, x82, h...와 같은 분들이 연락을 끊으시는 바람에. 곤란해서 자기는 연예인이라고 왜 그러냐고 그러시다가
+- 바로 정신이 드셔서 엘리트 해커를 하시면서, 프로그래밍도 C언어랑 파이썬 같은걸 좀 더 익히시고 인지하셔서, 하시면서 대외적으로는 음악하는 해커로 알려지고 싶다고 하십니다.
+- 문의 사항이 있으시면 제 메일로 문의 주세요. 이 사안은 저에게 개인적으로나 토다 에리카님과 관련되어 중요한 사안이니까. 저를 해커로 알던 음악인으로 아시는 분이시던 연예계 관련 얘기니까 메일 주시면 들어보고 신뢰할 수 있는 분이시면 상세히 조금이나마 이해가 되게 설명 드리겠습니다.
+
+"x90c라는 해커 아이디로 명성을 모은 정경주(KyongJoo Jung)님은 와우해커 출신 오버헤드 4기 2001년도 출신 유명인 해커다"
+"워크숍에서 커널에 대해서 발표를 국내 최초로 했었다"
+"이정도로 정리를 하고 위의 내용을 보시면 제 정체성이 드러나니까 대충 아실 수 있으실 거에요. 저는 이제 음악하러 가봐야 겠네요"
+"연예계랑 음악계랑 달라서요. 음악한다고 연예인이라 우쭐된다는 편인, 1*. "엘리트 해커(30년 이상 한거에다)". 2. "작곡 작사하는 가수를 해야 겠습니다."
 
 ## Skills
 - OS kernel and utility design, VR(vulnerability research), Secure Code Writing
