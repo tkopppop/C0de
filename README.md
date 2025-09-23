@@ -46,9 +46,4 @@ on full-disclosure mailinglist<br>
 "이정도로 정리를 하고 위의 내용을 보시면 제 정체성이 드러나니까 대충 아실 수 있으실 거에요. 저는 이제 음악하러 가봐야 겠네요"
 "연예계랑 음악계랑 달라서요. 음악한다고 연예인이라 우쭐된다는 편인, 1*. "엘리트 해커(30년 이상 한거에다)". 2. "작곡 작사하는 가수를 해야 겠습니다."
 
-## Skills
-- OS kernel and utility design, VR(vulnerability research), Secure Code Writing
-- hacking technique propergation research
-- AI related theory understand
-  
 
