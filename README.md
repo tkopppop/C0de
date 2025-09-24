@@ -31,5 +31,5 @@ on full-disclosure mailinglist<br>
 
 ## Interconnected to japan television show
 I show in japan and korea television show two more times as a special.
-toda erika is my old younger i know and i remember her.
+toda erika is my old younger sister(friend) i know and i remember her.
 
