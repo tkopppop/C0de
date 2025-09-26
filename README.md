@@ -30,7 +30,7 @@ on full-disclosure mailinglist<br>
 # TL;ERA
 
 ## Interconnected to japan television show
-I show in japan and korea television show two more times as a special.
+I show in japan and korea television show two more times as a special guest.
 toda erika is my old younger fam i know and i remember her.
 
 ## ALERT:THE_ERA_CONFERENCE_WORKSHOP_1_INTRODUCED_
